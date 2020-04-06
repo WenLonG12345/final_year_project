@@ -1,0 +1,77 @@
+
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {DECLARATION}}{ii}{section*.6}%
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {DEDICATION}}{iii}{section*.8}%
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {ACKNOWLEDGEMENT}}{iv}{section*.10}%
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {ABSTRACT}}{v}{section*.12}%
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {ABSTRAK}}{vi}{section*.14}%
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {TABLE OF CONTENTS}}{vii}{section*.16}%
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF TABLES}}{x}{section*.18}%
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF FIGURES}}{xi}{section*.20}%
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF ABBREVIATIONS}}{xii}{section*.22}%
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF APPENDICES}}{xiii}{section*.24}%
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 1}\MakeUppercase {Introduction}}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Overview}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problem Background}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Problem Statement}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Aim/Purpose of Study}{5}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Research Question}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Objective}{5}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Scope}{6}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Significant of Study}{6}{section.1.8}%
+\contentsline {section}{\numberline {1.9}Organisation of Study}{6}{section.1.9}%
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 2}\MakeUppercase {Literature Review}}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Event Prediction}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}South China Sea Conflict}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Text Mining}{11}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Types of Data}{13}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.1}Structured Data}{13}{subsubsection.2.4.1.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.2}Unstructured Data}{13}{subsubsection.2.4.1.2}%
+\contentsline {subsection}{\numberline {2.4.2}Event Relation}{15}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.1}Temporal Relation}{15}{subsubsection.2.4.2.1}%
+\contentsline {subsubsection}{\numberline {2.4.2.2}Causality Relation}{15}{subsubsection.2.4.2.2}%
+\contentsline {subsection}{\numberline {2.4.3}Event Detection}{17}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Event Extraction}{17}{subsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.4.1}Data-Driven Event Extraction}{18}{subsubsection.2.4.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.4.2}Knowledge-Driven Event Extraction}{18}{subsubsection.2.4.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.4.3}Hybrid Event Extraction}{18}{subsubsection.2.4.4.3}%
+\contentsline {subsection}{\numberline {2.4.5}Event Representation}{19}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Event Generalisation}{20}{subsection.2.4.6}%
+\contentsline {subsubsection}{\numberline {2.4.6.1}Generalisation Path}{21}{subsubsection.2.4.6.1}%
+\contentsline {subsubsection}{\numberline {2.4.6.2}Semantic Network}{22}{subsubsection.2.4.6.2}%
+\contentsline {subsubsection}{\numberline {2.4.6.3}Clustering Algorithm}{22}{subsubsection.2.4.6.3}%
+\contentsline {section}{\numberline {2.5}Prediction Algorithm}{25}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Sequential Prediction Algorithm}{25}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Neural Network Prediction Algorithm}{26}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Decision Tree (Pundit) Algorithm}{26}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Existing work of Event Prediction}{28}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Open Issues and Challenges}{30}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Summary}{31}{section.2.8}%
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 3}\MakeUppercase {Research Methodology}}{32}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Overview}{32}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Research Framework}{33}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Phase 1}{35}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Phase 2}{37}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Phase 3}{38}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Data sets}{38}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Performance Measurement}{40}{section.3.4}%
+\contentsline {section}{\numberline {3.5}PSM 1 Gantt Chart}{40}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Summary}{41}{section.3.6}%
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 4}\MakeUppercase {Experimental Setup}}{42}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{42}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Text Preprocessing and Event Extraction}{42}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Summary}{45}{section.4.3}%
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 5}\MakeUppercase {Conclusion}}{46}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion Remarks}{46}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Works}{46}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Summary}{47}{section.5.3}%
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\MakeUppercase {REFERENCES}}{48}{section*.49}%
+\save@tocdepth \setcounter {tocdepth}{0}
+\vspace {\@twolinespacing }
+\save@tocdepth \setcounter {tocdepth}{2}

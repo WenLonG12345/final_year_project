@@ -1,0 +1,479 @@
+\makeatletter
+  \def\@biblabel#1{}
+  \renewcommand\@openbib@code{%
+    \advance\leftmargin\bibindent
+    \itemindent -\bibindent
+    \listparindent \itemindent
+  }%
+\makeatother
+\begin{thebibliography}{67}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{Retrievable at }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Afzal \emph{et~al.}(2010)Afzal, Maurer, Balke and
+  Kulathuramaiyer}]{afzal2010rule}
+Afzal, M.~T., Maurer, H., Balke, W.-T. and Kulathuramaiyer, N. (2010).
+\newblock Rule based autonomous citation mining with TIERL. \emph{Journal of
+  Digital Information Management}.
+\newblock 8(3), 196--204.
+
+\bibitem[{Anantharam \emph{et~al.}(2015)Anantharam, Barnaghi, Thirunarayan and
+  Sheth}]{anantharam2015extracting}
+Anantharam, P., Barnaghi, P., Thirunarayan, K. and Sheth, A. (2015).
+\newblock Extracting city traffic events from social streams. \emph{ACM
+  Transactions on Intelligent Systems and Technology (TIST)}.
+\newblock 6(4), 43.
+
+\bibitem[{Asencio-Cort{\'e}s \emph{et~al.}(2017)Asencio-Cort{\'e}s,
+  Mart{\'\i}nez-{\'A}lvarez, Troncoso and Morales-Esteban}]{asencio2017medium}
+Asencio-Cort{\'e}s, G., Mart{\'\i}nez-{\'A}lvarez, F., Troncoso, A. and
+  Morales-Esteban, A. (2017).
+\newblock Medium--large earthquake magnitude prediction in Tokyo with
+  artificial neural networks. \emph{Neural Computing and Applications}.
+\newblock 28(5), 1043--1055.
+
+\bibitem[{Asim \emph{et~al.}(2017)Asim, Mart{\'\i}nez-{\'A}lvarez, Basit and
+  Iqbal}]{asim2017earthquake}
+Asim, K., Mart{\'\i}nez-{\'A}lvarez, F., Basit, A. and Iqbal, T. (2017).
+\newblock Earthquake magnitude prediction in Hindukush region using machine
+  learning techniques. \emph{Natural Hazards}.
+\newblock 85(1), 471--486.
+
+\bibitem[{Baker(2019)}]{jamesbaker2019}
+Baker, J. (2019).
+\newblock \emph{Machine Learning Versus The News}.
+\newblock
+  \urlprefix\url{https://towardsdatascience.com/machine-learning-versus-the-news-3b5b479d8e6a}.
+
+\bibitem[{Bandaragoda \emph{et~al.}(2018)Bandaragoda, De~Silva, Alahakoon,
+  Ranasinghe and Bolton}]{bandaragoda2018text}
+Bandaragoda, T.~R., De~Silva, D., Alahakoon, D., Ranasinghe, W. and Bolton, D.
+  (2018).
+\newblock Text Mining for Personalized Knowledge Extraction From Online Support
+  Groups. \emph{Journal of the Association for Information Science and
+  Technology}.
+\newblock 69(12), 1446--1459.
+
+\bibitem[{Battistella(2005)}]{gautierbattistellaOctober2005}
+Battistella, G. (2005).
+\newblock The World's Biggest Propaganda Agency. \emph{Reporters Without
+  Borders}.
+
+\bibitem[{Bell(2016)}]{bryanbell2016}
+Bell, B. (2016).
+\newblock \emph{The Road to Prediction: Using Unstructured Data}.
+\newblock
+  \urlprefix\url{https://www.dataversity.net/the-road-to-prediction-using-unstructured-data/}.
+
+\bibitem[{Bhardwaj(2016)}]{bhardwaj2016text}
+Bhardwaj, B. (2016).
+\newblock Text mining, its utilities, challenges and clustering techniques.
+  \emph{International Journal of Computer Applications}.
+\newblock 135(7), 975--8887.
+
+\bibitem[{Casert(2016)}]{rafcasert}
+Casert, R. (2016).
+\newblock \emph{Belgium ramps up security for lone suspect in Jewish Museum
+  attack}.
+\newblock
+  \urlprefix\url{https://archive.is/20140527190719/http://www.theglobeandmail.com/news/world/police-hunt-brussels-jewish-museum-shooter-france-tightens-security/article18835439/#selection-583.1-583.67}.
+
+\bibitem[{Chen \emph{et~al.}(2019)Chen, Wang, Tang and
+  Hao}]{chen2019bibliometric}
+Chen, X., Wang, S., Tang, Y. and Hao, T. (2019).
+\newblock A bibliometric analysis of event detection in social media.
+  \emph{Online Information Review}.
+
+\bibitem[{ChinaPower(2016)}]{chinapower2016}
+ChinaPower (2016).
+\newblock \emph{How much trade transits the South China Sea?}
+\newblock
+  \urlprefix\url{https://chinapower.csis.org/much-trade-transits-south-china-sea/}.
+
+\bibitem[{Choi \emph{et~al.}(2016)Choi, Liu, Baumgartner, Zobel and
+  Verspoor}]{choi2016coreference}
+Choi, M., Liu, H., Baumgartner, W., Zobel, J. and Verspoor, K. (2016).
+\newblock Coreference resolution improves extraction of Biological Expression
+  Language statements from texts. \emph{Database}.
+\newblock 2016.
+
+\bibitem[{Dahlhaus and Eichler(2003)}]{dahlhaus2003causality}
+Dahlhaus, R. and Eichler, M. (2003).
+\newblock Causality and graphical models in time series analysis. \emph{Oxford
+  Statistical Science Series}, 115--137.
+
+\bibitem[{Dami \emph{et~al.}(2018)Dami, Barforoush and Shirazi}]{dami2018news}
+Dami, S., Barforoush, A.~A. and Shirazi, H. (2018).
+\newblock News events prediction using Markov logic networks. \emph{Journal of
+  Information Science}.
+\newblock 44(1), 91--109.
+
+\bibitem[{D.Goltz(2018)}]{jamesd.goltz2018}
+D.Goltz, J. (2018).
+\newblock \emph{Earthquake advisories can save lives}.
+\newblock
+  \urlprefix\url{https://www.japantimes.co.jp/opinion/2018/04/17/commentary/japan-commentary/earthquake-advisories-can-save-lives/#.XIc8d7NbzeQ}.
+
+\bibitem[{Ding \emph{et~al.}(2015)Ding, Zhang, Liu and Duan}]{ding2015deep}
+Ding, X., Zhang, Y., Liu, T. and Duan, J. (2015).
+\newblock Deep learning for event-driven stock prediction.
+\newblock
+\newblock In \emph{Twenty-Fourth International Joint Conference on Artificial
+  Intelligence}.
+
+\bibitem[{Ding \emph{et~al.}(2016)Ding, Zhang, Liu and
+  Duan}]{ding2016knowledge}
+Ding, X., Zhang, Y., Liu, T. and Duan, J. (2016).
+\newblock Knowledge-driven event embedding for stock prediction.
+\newblock
+\newblock In \emph{Proceedings of COLING 2016, the 26th International
+  Conference on Computational Linguistics: Technical Papers}. 2133--2142.
+
+\bibitem[{E.Hayes(1980)}]{dennise.hayes1980}
+E.Hayes, D. (1980).
+\newblock South China Sea, PACIFIC OCEAN. \emph{The Tectonic and Geologic
+  Evolution of Southeast Asian Seas and Islands}.
+
+\bibitem[{Erevelles \emph{et~al.}(2016)Erevelles, Fukawa and
+  Swayne}]{erevelles2016big}
+Erevelles, S., Fukawa, N. and Swayne, L. (2016).
+\newblock Big Data consumer analytics and the transformation of marketing.
+  \emph{Journal of Business Research}.
+\newblock 69(2), 897--904.
+
+\bibitem[{Fader \emph{et~al.}(2011)Fader, Soderland and Etzioni}]{ReVerb2011}
+Fader, A., Soderland, S. and Etzioni, O. (2011).
+\newblock Identifying Relations for Open Information Extraction.
+\newblock In \emph{Proceedings of the Conference of Empirical Methods in
+  Natural Language Processing ({EMNLP} '11)}.
+\newblock  July 27-31. Edinburgh, Scotland, UK.
+
+\bibitem[{Fedoryszak \emph{et~al.}(2019)Fedoryszak, Frederick, Rajaram and
+  Zhong}]{fedoryszak2019real}
+Fedoryszak, M., Frederick, B., Rajaram, V. and Zhong, C. (2019).
+\newblock Real-time event detection on social data streams.
+\newblock
+\newblock In \emph{Proceedings of the 25th ACM SIGKDD International Conference
+  on Knowledge Discovery \& Data Mining}. 2774--2782.
+
+\bibitem[{Fensom(2016)}]{theNationalInterest}
+Fensom, A. (2016).
+\newblock \$5 Trillion Meltdown - What If China Shuts Down the South China Sea?
+  \emph{The National Interest}.
+\newblock
+  \urlprefix\url{https://nationalinterest.org/blog/5-trillion-meltdown-what-if-china-shuts-down-the-south-china-16996}.
+
+\bibitem[{Frunza(2016)}]{FRUNZA2016263}
+Frunza, M.-C. (2016).
+\newblock Chapter 3B - Exploring Unstructured Data.
+\newblock In Frunza, M.-C. (Ed.) \emph{Solving Modern Crime in Financial
+  Markets}. (pp. 263 -- 273).
+\newblock Academic Press.
+\newblock ISBN 978-0-12-804494-0.
+\newblock \doi{https://doi.org/10.1016/B978-0-12-804494-0.00019-X}.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/B978012804494000019X}.
+
+\bibitem[{Gaur(2012)}]{gaur2012neural}
+Gaur, P. (2012).
+\newblock Neural networks in data mining. \emph{International Journal of
+  Electronics and Computer Science Engineering (IJECSE, ISSN: 2277-1956)}.
+\newblock 1(03), 1449--1453.
+
+\bibitem[{Gonzales(2014)}]{gonzales2014spratly}
+Gonzales, R. (2014).
+\newblock The Spratly Islands Dispute: International Law, Conflicting Claims,
+  and Alternative Frameworks For Dispute Resolution.
+
+\bibitem[{Granroth-Wilding and Clark(2016)}]{granroth2016happens}
+Granroth-Wilding, M. and Clark, S. (2016).
+\newblock What happens next? event prediction using a compositional neural
+  network model.
+\newblock
+\newblock In \emph{Thirtieth AAAI Conference on Artificial Intelligence}.
+
+\bibitem[{Grolinger \emph{et~al.}(2016)Grolinger, L’Heureux, Capretz and
+  Seewald}]{grolinger2016energy}
+Grolinger, K., L’Heureux, A., Capretz, M.~A. and Seewald, L. (2016).
+\newblock Energy forecasting for event venues: Big data and prediction
+  accuracy. \emph{Energy and Buildings}.
+\newblock 112, 222--233.
+
+\bibitem[{Hogenboom \emph{et~al.}(2011)Hogenboom, Frasincar, Kaymak and
+  De~Jong}]{hogenboom2011overview}
+Hogenboom, F., Frasincar, F., Kaymak, U. and De~Jong, F. (2011).
+\newblock An overview of event extraction from text.
+\newblock In \emph{Workshop on Detection, Representation, and Exploitation of
+  Events in the Semantic Web (DeRiVE 2011) at Tenth International Semantic Web
+  Conference (ISWC 2011)},
+\newblock vol. 779. Citeseer, 48--57.
+
+\bibitem[{Hogenboom \emph{et~al.}(2016)Hogenboom, Frasincar, Kaymak, De~Jong
+  and Caron}]{hogenboom2016survey}
+Hogenboom, F., Frasincar, F., Kaymak, U., De~Jong, F. and Caron, E. (2016).
+\newblock A survey of event extraction methods from text for decision support
+  systems. \emph{Decision Support Systems}.
+\newblock 85, 12--22.
+
+\bibitem[{Hu \emph{et~al.}(2017)Hu, Li, Nie, Li and Shao}]{hu2017happens}
+Hu, L., Li, J., Nie, L., Li, X.-L. and Shao, C. (2017).
+\newblock What happens next? Future subevent prediction using contextual
+  hierarchical LSTM.
+\newblock
+\newblock In \emph{Thirty-First AAAI Conference on Artificial Intelligence}.
+
+\bibitem[{Jae-Wook~Ahn(2005)}]{jaewookahnsueyeonsyn2005}
+Jae-Wook~Ahn, S. Y.~S. (2005).
+\newblock \emph{Self-Organizing Maps}.
+\newblock
+  \urlprefix\url{http://www.pitt.edu/~is2470pb/Spring05/FinalProjects/Group1a/tutorial/som.html}.
+
+\bibitem[{Kaschesky \emph{et~al.}(2011)Kaschesky, Sobkowicz and
+  Bouchard}]{kaschesky2011opinion}
+Kaschesky, M., Sobkowicz, P. and Bouchard, G. (2011).
+\newblock Opinion mining in social media: modeling, simulating, and visualizing
+  political opinion formation in the web.
+\newblock
+\newblock In \emph{Proceedings of the 12th Annual International Digital
+  Government Research Conference: Digital Government Innovation in Challenging
+  Times}. ACM, 317--326.
+
+\bibitem[{KAUSHIK(2016)}]{sauravkaushik2016}
+KAUSHIK, S. (2016).
+\newblock \emph{An Introduction to Clustering and different methods of
+  clustering}.
+\newblock
+  \urlprefix\url{https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/}.
+
+\bibitem[{Kulkarni(2019)}]{rohitbigdata2019}
+Kulkarni, R. (2019).
+\newblock \emph{Big Data Goes Big}.
+\newblock
+  \urlprefix\url{https://www.forbes.com/sites/rkulkarni/2019/02/07/big-data-goes-big/#5c7be26420d7}.
+
+\bibitem[{Letham \emph{et~al.}(2013)Letham, Rudin and
+  Madigan}]{letham2013sequential}
+Letham, B., Rudin, C. and Madigan, D. (2013).
+\newblock Sequential event prediction. \emph{Machine learning}.
+\newblock 93(2-3), 357--380.
+
+\bibitem[{Li \emph{et~al.}(2018)Li, Ding and Liu}]{li2018constructing}
+Li, Z., Ding, X. and Liu, T. (2018).
+\newblock Constructing narrative event evolutionary graph for script event
+  prediction. \emph{arXiv preprint arXiv:1805.05081}.
+
+\bibitem[{Lima \emph{et~al.}(2009)Lima, Mues and Baesens}]{lima2009domain}
+Lima, E., Mues, C. and Baesens, B. (2009).
+\newblock Domain knowledge integration in data mining using decision tables:
+  Case studies in churn prediction. \emph{Journal of the Operational Research
+  Society}.
+\newblock 60(8), 1096--1106.
+
+\bibitem[{Maziarz \emph{et~al.}(2017)Maziarz, Heagerty, Cai and
+  Zheng}]{maziarz2017longitudinal}
+Maziarz, M., Heagerty, P., Cai, T. and Zheng, Y. (2017).
+\newblock On longitudinal prediction with time-to-event outcome: Comparison of
+  modeling options. \emph{Biometrics}.
+\newblock 73(1), 83--93.
+
+\bibitem[{Michael~Benz(2017)}]{michaelbenzmoritzmuller}
+Michael~Benz, M.~M.\emph{ (2017)}.
+
+\bibitem[{Mirza(2014)}]{mirza2014extracting}
+Mirza, P. (2014).
+\newblock Extracting temporal and causal relations between events.
+\newblock
+\newblock In \emph{Proceedings of the ACL 2014 Student Research Workshop}.
+  10--17.
+
+\bibitem[{mongoDB(2016)}]{mongoDB2016}
+mongoDB (2016).
+\newblock \emph{Unstructured Data In Big Data}.
+\newblock
+  \urlprefix\url{https://www.mongodb.com/scale/unstructured-data-in-big-data}.
+
+\bibitem[{Mulia \emph{et~al.}(2016)Mulia, Asano and Nagayama}]{mulia2016real}
+Mulia, I.~E., Asano, T. and Nagayama, A. (2016).
+\newblock Real-time forecasting of near-field tsunami waveforms at coastal
+  areas using a regularized extreme learning machine. \emph{Coastal
+  Engineering}.
+\newblock 109, 1--8.
+
+\bibitem[{news(2014)}]{vietnamBoat2014}
+news, B. (2014).
+\newblock \emph{Vietnam boat sinks after collision with Chinese vessel}.
+\newblock \urlprefix\url{https://www.bbc.com/news/world-asia-27583564}.
+
+\bibitem[{Ning \emph{et~al.}(2016)Ning, Muthiah, Rangwala and
+  Ramakrishnan}]{ning2016modeling}
+Ning, Y., Muthiah, S., Rangwala, H. and Ramakrishnan, N. (2016).
+\newblock Modeling precursors for event forecasting via nested multi-instance
+  learning.
+\newblock
+\newblock In \emph{Proceedings of the 22nd ACM SIGKDD International Conference
+  on Knowledge Discovery and Data Mining}. ACM, 1095--1104.
+
+\bibitem[{Pechsiri and Piriyakul(2010)}]{pechsiri2010explanation}
+Pechsiri, C. and Piriyakul, R. (2010).
+\newblock Explanation knowledge graph construction through causality extraction
+  from texts. \emph{Journal of computer science and technology}.
+\newblock 25(5), 1055--1070.
+
+\bibitem[{Poesio \emph{et~al.}(2016)Poesio, Stuckardt and
+  Versley}]{poesio2016anaphora}
+Poesio, M., Stuckardt, R. and Versley, Y. (2016).
+\newblock \emph{Anaphora resolution: Algorithms, resources, and applications}.
+\newblock Springer.
+
+\bibitem[{Preethi \emph{et~al.}(2015)Preethi, Uma
+  \emph{et~al.}}]{preethi2015temporal}
+Preethi, P.~G., Uma, V. \emph{et~al.} (2015).
+\newblock Temporal sentiment analysis and causal rules extraction from tweets
+  for event prediction. \emph{Procedia computer science}.
+\newblock 48, 84--89.
+
+\bibitem[{Radinsky \emph{et~al.}(2012)Radinsky, Davidovich and
+  Markovitch}]{radinsky2012learning}
+Radinsky, K., Davidovich, S. and Markovitch, S. (2012).
+\newblock Learning causality for news events prediction.
+\newblock
+\newblock In \emph{Proceedings of the 21st international conference on World
+  Wide Web}. ACM, 909--918.
+
+\bibitem[{Radinsky \emph{et~al.}(2014)Radinsky, Davidovich and
+  Markovitch}]{radinsky2014pundit}
+Radinsky, K., Davidovich, S. and Markovitch, S. (2014).
+\newblock Learning to Predict from Textual Data. \emph{Journal of Artificial
+  Intelligence Research}.
+\newblock 45.
+\newblock \doi{10.1613/jair.3865}.
+
+\bibitem[{Rospocher \emph{et~al.}(2016)Rospocher, van Erp, Vossen, Fokkens,
+  Aldabe, Rigau, Soroa, Ploeger and Bogaard}]{rospocher2016building}
+Rospocher, M., van Erp, M., Vossen, P., Fokkens, A., Aldabe, I., Rigau, G.,
+  Soroa, A., Ploeger, T. and Bogaard, T. (2016).
+\newblock Building event-centric knowledge graphs from news. \emph{Journal of
+  Web Semantics}.
+\newblock 37, 132--151.
+
+\bibitem[{Rumi \emph{et~al.}(2018)Rumi, Deng and Salim}]{rumi2018crime}
+Rumi, S.~K., Deng, K. and Salim, F.~D. (2018).
+\newblock Crime event prediction with dynamic features. \emph{EPJ Data
+  Science}.
+\newblock 7(1), 43.
+
+\bibitem[{Seth(2007)}]{Seth2007}
+Seth, A. (2007).
+\newblock {G}ranger causality. \emph{Scholarpedia}.
+\newblock 2(7), 1667.
+\newblock \doi{10.4249/scholarpedia.1667}.
+\newblock Revision \#127333.
+
+\bibitem[{Suyal \emph{et~al.}(2014)Suyal, Panwar and Negi}]{suyal2014text}
+Suyal, H., Panwar, A. and Negi, A.~S. (2014).
+\newblock Text Clustering Algorithms: A Review. \emph{International Journal of
+  Computer Applications}.
+\newblock 96(24).
+
+\bibitem[{Tan \emph{et~al.}(1999)}]{tan1999text}
+Tan, A.-H. \emph{et~al.} (1999).
+\newblock Text mining: The state of the art and the challenges.
+\newblock In \emph{Proceedings of the PAKDD 1999 Workshop on Knowledge
+  Disocovery from Advanced Databases},
+\newblock vol.~8. sn, 65--70.
+
+\bibitem[{Taylor(2018)}]{christinetaylor2018}
+Taylor, C. (2018).
+\newblock \emph{Structured vs. Unstructured Data}.
+\newblock
+  \urlprefix\url{https://www.datamation.com/big-data/structured-vs-unstructured-data.html}.
+
+\bibitem[{Tung \emph{et~al.}(2016)Tung, Wang and Chen}]{tung2016mining}
+Tung, K.-C., Wang, E.~T. and Chen, A.~L. (2016).
+\newblock Mining event sequences from social media for election prediction.
+\newblock
+\newblock In \emph{Industrial Conference on Data Mining}. Springer, 266--281.
+
+\bibitem[{Valenzuela-Esc{\'a}rcega \emph{et~al.}(2015)Valenzuela-Esc{\'a}rcega,
+  Hahn-Powell, Surdeanu and Hicks}]{valenzuela2015domain}
+Valenzuela-Esc{\'a}rcega, M.~A., Hahn-Powell, G., Surdeanu, M. and Hicks, T.
+  (2015).
+\newblock A domain-independent rule-based framework for event extraction.
+  \emph{Proceedings of ACL-IJCNLP 2015 System Demonstrations}, 127--132.
+
+\bibitem[{Vargas \emph{et~al.}(2017)Vargas, De~Lima and
+  Evsukoff}]{vargas2017deep}
+Vargas, M.~R., De~Lima, B.~S. and Evsukoff, A.~G. (2017).
+\newblock Deep learning for stock market prediction from financial news
+  articles.
+\newblock
+\newblock In \emph{2017 IEEE International Conference on Computational
+  Intelligence and Virtual Environments for Measurement Systems and
+  Applications (CIVEMSA)}. IEEE, 60--65.
+
+\bibitem[{Vesanto \emph{et~al.}(2000)Vesanto, Alhoniemi
+  \emph{et~al.}}]{vesanto2000clustering}
+Vesanto, J., Alhoniemi, E. \emph{et~al.} (2000).
+\newblock Clustering of the self-organizing map. \emph{IEEE Transactions on
+  neural networks}.
+\newblock 11(3), 586--600.
+
+\bibitem[{Vossen \emph{et~al.}(2016)Vossen, Agerri, Aldabe, Cybulska, van Erp,
+  Fokkens, Laparra, Minard, Aprosio, Rigau
+  \emph{et~al.}}]{vossen2016newsreader}
+Vossen, P., Agerri, R., Aldabe, I., Cybulska, A., van Erp, M., Fokkens, A.,
+  Laparra, E., Minard, A.-L., Aprosio, A.~P., Rigau, G. \emph{et~al.} (2016).
+\newblock NewsReader: Using knowledge resources in a cross-lingual reading
+  machine to generate more knowledge from massive streams of news.
+  \emph{Knowledge-Based Systems}.
+\newblock 110, 60--85.
+
+\bibitem[{Wu \emph{et~al.}(2017)Wu, Sun and Yan}]{wu2017event}
+Wu, Y., Sun, H. and Yan, C. (2017).
+\newblock An event timeline extraction method based on news corpus.
+\newblock
+\newblock In \emph{2017 IEEE 2nd International Conference on Big Data Analysis
+  (ICBDA)(}. IEEE, 697--702.
+
+\bibitem[{Yzaguirre \emph{et~al.}(2016)Yzaguirre, Smit and
+  Warren}]{yzaguirre2016newspaper}
+Yzaguirre, A., Smit, M. and Warren, R. (2016).
+\newblock Newspaper archives+ text mining= rich sources of historical
+  geo-spatial data.
+\newblock In \emph{IOP Conference Series: Earth and Environmental Science},
+\newblock vol.~34. IOP Publishing, 012043.
+
+\bibitem[{Zhang and Clark(2011)}]{zhang2011syntactic}
+Zhang, Y. and Clark, S. (2011).
+\newblock Syntactic processing using the generalized perceptron and beam
+  search. \emph{Computational linguistics}.
+\newblock 37(1), 105--151.
+
+\bibitem[{Zhao \emph{et~al.}(2017)Zhao, Wang, Massung, Qin, Liu, Wang and
+  Zhai}]{zhao2017constructing}
+Zhao, S., Wang, Q., Massung, S., Qin, B., Liu, T., Wang, B. and Zhai, C.
+  (2017).
+\newblock Constructing and embedding abstract event causality networks from
+  text snippets.
+\newblock
+\newblock In \emph{Proceedings of the Tenth ACM International Conference on Web
+  Search and Data Mining}. ACM, 335--344.
+
+\bibitem[{Zhen(2014)}]{liuzhen2014}
+Zhen, L. (2014).
+\newblock What's China's 'Nine-Dash Line' and why has it created so much
+  tension in the South China Sea? \emph{South China Morning Post}.
+
+\bibitem[{Zhou \emph{et~al.}(2015)Zhou, Chen and He}]{zhou2015unsupervised}
+Zhou, D., Chen, L. and He, Y. (2015).
+\newblock An unsupervised framework of exploring events on twitter: Filtering,
+  extraction and categorization.
+\newblock
+\newblock In \emph{Twenty-Ninth AAAI Conference on Artificial Intelligence}.
+
+\end{thebibliography}

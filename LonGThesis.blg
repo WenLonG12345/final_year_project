@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: LonGThesis.aux
+The style file: utmthesis-authordate.bst
+Database file #1: reference.bib
+Warning--entry type for "jamesbaker2019" isn't style-file defined
+--line 2 of file reference.bib
+Warning--entry type for "rafcasert" isn't style-file defined
+--line 8 of file reference.bib
+Warning--entry type for "jamesd.goltz2018" isn't style-file defined
+--line 15 of file reference.bib
+Warning--entry type for "michaelbenzmoritzmuller" isn't style-file defined
+--line 44 of file reference.bib
+I was expecting a `,' or a `}'---line 47 of file reference.bib
+ :     
+ :     title  = "4 Valuable Insights Banks Can Gain From Unstructured Data",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "christinetaylor2018" isn't style-file defined
+--line 133 of file reference.bib
+Warning--entry type for "bryanbell2016" isn't style-file defined
+--line 140 of file reference.bib
+Warning--entry type for "mongoDB2016" isn't style-file defined
+--line 147 of file reference.bib
+Warning--entry type for "rohitbigdata2019" isn't style-file defined
+--line 264 of file reference.bib
+Warning--entry type for "sauravkaushik2016" isn't style-file defined
+--line 387 of file reference.bib
+Warning--entry type for "jaewookahnsueyeonsyn2005" isn't style-file defined
+--line 413 of file reference.bib
+Warning--entry type for "chinapower2016" isn't style-file defined
+--line 479 of file reference.bib
+Warning--entry type for "vietnamboat2014" isn't style-file defined
+--line 575 of file reference.bib
+You can't pop an empty literal stack for entry ding2015deep
+while executing---line 1711 of file utmthesis-authordate.bst
+Warning--empty pages in ding2015deep
+You can't pop an empty literal stack for entry ding2016knowledge
+while executing---line 1711 of file utmthesis-authordate.bst
+Warning--empty pages in ReVerb2011
+You can't pop an empty literal stack for entry fedoryszak2019real
+while executing---line 1711 of file utmthesis-authordate.bst
+Warning--empty journal in gonzales2014spratly
+You can't pop an empty literal stack for entry granroth2016happens
+while executing---line 1711 of file utmthesis-authordate.bst
+Warning--empty pages in granroth2016happens
+You can't pop an empty literal stack for entry hogenboom2011overview
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry hu2017happens
+while executing---line 1711 of file utmthesis-authordate.bst
+Warning--empty pages in hu2017happens
+You can't pop an empty literal stack for entry kaschesky2011opinion
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry mirza2014extracting
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry ning2016modeling
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry radinsky2012learning
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry tan1999text
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry tung2016mining
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry vargas2017deep
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry wu2017event
+while executing---line 1711 of file utmthesis-authordate.bst
+Warning--can't use both volume and number fields in yzaguirre2016newspaper
+You can't pop an empty literal stack for entry yzaguirre2016newspaper
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry zhao2017constructing
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry zhou2015unsupervised
+while executing---line 1711 of file utmthesis-authordate.bst
+Warning--empty pages in zhou2015unsupervised
+(There were 18 error messages)

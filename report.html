@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TeXtidote analysis</title>
+<style type="text/css">
+body {
+  font-family: sans-serif;
+}
+.highlight, .highlight-sh, .highlight-spelling {
+  padding: 2pt;
+  border-radius: 4pt;
+  cursor: help;
+  opacity: 0.7;
+  border: dashed 1px;
+}
+.highlight {
+  background-color: orange;
+  color: black;
+}
+.highlight-sh {
+  background-color: yellow;
+  color: black;
+}
+.highlight-spelling {
+  background-color: red;
+  color: white;
+}
+div.original-file {
+  font-family: monospace;
+  font-size: 11pt;
+  background-color: #f8f8ff;
+  padding: 20pt;
+  border-radius: 6pt;
+}
+.textidote {
+  	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiICAgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiICAgd2lkdGg9IjEwMC4wOTEwNW1tIiAgIGhlaWdodD0iMTguMjA5MDk5bW0iICAgdmlld0JveD0iMCAwIDEwMC4wOTEwNSAxOC4yMDkwOTkiICAgdmVyc2lvbj0iMS4xIiAgIGlkPSJzdmc4IiAgIGlua3NjYXBlOnZlcnNpb249IjAuOTEgcjEzNzI1IiAgIHNvZGlwb2RpOmRvY25hbWU9InRleHRpZG90ZS5zdmciPiAgPGRlZnMgICAgIGlkPSJkZWZzMiIgLz4gIDxzb2RpcG9kaTpuYW1lZHZpZXcgICAgIGlkPSJiYXNlIiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIiAgICAgYm9yZGVyY29sb3I9IiM2NjY2NjYiICAgICBib3JkZXJvcGFjaXR5PSIxLjAiICAgICBpbmtzY2FwZTpwYWdlb3BhY2l0eT0iMC4wIiAgICAgaW5rc2NhcGU6cGFnZXNoYWRvdz0iMiIgICAgIGlua3NjYXBlOnpvb209IjEiICAgICBpbmtzY2FwZTpjeD0iLTI1NC4yNTMwOSIgICAgIGlua3NjYXBlOmN5PSItMjc4LjM3NTkxIiAgICAgaW5rc2NhcGU6ZG9jdW1lbnQtdW5pdHM9Im1tIiAgICAgaW5rc2NhcGU6Y3VycmVudC1sYXllcj0ibGF5ZXIxIiAgICAgc2hvd2dyaWQ9ImZhbHNlIiAgICAgZml0LW1hcmdpbi10b3A9IjAiICAgICBmaXQtbWFyZ2luLWxlZnQ9IjAiICAgICBmaXQtbWFyZ2luLXJpZ2h0PSIwIiAgICAgZml0LW1hcmdpbi1ib3R0b209IjAiICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjE5MjAiICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSIxMDIxIiAgICAgaW5rc2NhcGU6d2luZG93LXg9IjAiICAgICBpbmtzY2FwZTp3aW5kb3cteT0iMjY1IiAgICAgaW5rc2NhcGU6d2luZG93LW1heGltaXplZD0iMSIgLz4gIDxtZXRhZGF0YSAgICAgaWQ9Im1ldGFkYXRhNSI+ICAgIDxyZGY6UkRGPiAgICAgIDxjYzpXb3JrICAgICAgICAgcmRmOmFib3V0PSIiPiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+ICAgICAgICA8ZGM6dHlwZSAgICAgICAgICAgcmRmOnJlc291cmNlPSJodHRwOi8vcHVybC5vcmcvZGMvZGNtaXR5cGUvU3RpbGxJbWFnZSIgLz4gICAgICAgIDxkYzp0aXRsZSAvPiAgICAgIDwvY2M6V29yaz4gICAgPC9yZGY6UkRGPiAgPC9tZXRhZGF0YT4gIDxnICAgICBpbmtzY2FwZTpsYWJlbD0iTGF5ZXIgMSIgICAgIGlua3NjYXBlOmdyb3VwbW9kZT0ibGF5ZXIiICAgICBpZD0ibGF5ZXIxIiAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTI5LjczODA5NSwtNzAuNTc3NzUxKSI+ICAgIDxnICAgICAgIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXdlaWdodDpub3JtYWw7Zm9udC1zaXplOjIwLjkyODk0NTU0cHg7bGluZS1oZWlnaHQ6MS4yNTtmb250LWZhbWlseTpzYW5zLXNlcmlmO2xldHRlci1zcGFjaW5nOjBweDt3b3JkLXNwYWNpbmc6MHB4O2ZpbGw6I2ZmZmZmZjtmaWxsLW9wYWNpdHk6MTtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MS45Nzc1MzgyMztzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZSIgICAgICAgaWQ9InRleHQ4MzYiPiAgICAgIDxwYXRoICAgICAgICAgZD0ibSAzMC43MjY4NjQsNzEuNTY2NTIgNS4yMzIyMzYsMCAwLDQuMjA5MDQ0IDUuODEzNTk2LDAgMCwzLjYwNDQyOSAtNS44MTM1OTYsMCAwLDQuODEzNjU4IDUuODEzNTk2LDAgMCwzLjYwNDQyOSAtMTEuMDQ1ODMyLDAgMCwtMTYuMjMxNTYgeiIgICAgICAgICBzdHlsZT0iZm9udC1zdHlsZTpub3JtYWw7Zm9udC12YXJpYW50Om5vcm1hbDtmb250LXdlaWdodDpub3JtYWw7Zm9udC1zdHJldGNoOm5vcm1hbDtmb250LWZhbWlseTpUdXRvcjstaW5rc2NhcGUtZm9udC1zcGVjaWZpY2F0aW9uOlR1dG9yO2ZpbGw6I2ZmZmZmZjtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MS45Nzc1MzgyMztzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZSIgICAgICAgICBpZD0icGF0aDMzODYiIC8+ICAgICAgPHBhdGggICAgICAgICBkPSJtIDQyLjMzNTg4OCw3NS43NzU1NjQgMTEuMDQ1ODMyLDAgMCw3LjgxMzQ3MyAtNS44MTM1OTYsMCAwLDAuNjA0NjE0IDUuODEzNTk2LDAgMCwzLjYwNDQyOSAtMTEuMDQ1ODMyLDAgMCwtMTIuMDIyNTE2IHogbSA1LjIzMjIzNiw0LjIwOTA0MyAwLjU4MTM2LDAgMCwtMC42MDQ2MTQgLTAuNTgxMzYsMCAwLDAuNjA0NjE0IHoiICAgICAgICAgc3R5bGU9ImZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6bm9ybWFsO2ZvbnQtc3RyZXRjaDpub3JtYWw7Zm9udC1mYW1pbHk6VHV0b3I7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpUdXRvcjtmaWxsOiNmZmZmZmY7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEuOTc3NTM4MjM7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmUiICAgICAgICAgaWQ9InBhdGgzMzg4IiAvPiAgICAgIDxwYXRoICAgICAgICAgZD0ibSA1My45NDQ5MTIsNzUuNzc1NTY0IDUuMjMyMjM2LDAgMCwzLjYwNDQyOSAtNS4yMzIyMzYsMCAwLC0zLjYwNDQyOSB6IG0gNS44MTM1OTYsMCA1LjIzMjIzNiwwIDAsMy42MDQ0MjkgLTUuMjMyMjM2LDAgMCwtMy42MDQ0MjkgeiBtIC01LjgxMzU5Niw4LjQxODA4NyA1LjIzMjIzNiwwIDAsMy42MDQ0MjkgLTUuMjMyMjM2LDAgMCwtMy42MDQ0MjkgeiBtIDUuODEzNTk2LDAgNS4yMzIyMzYsMCAwLDMuNjA0NDI5IC01LjIzMjIzNiwwIDAsLTMuNjA0NDI5IHoiICAgICAgICAgc3R5bGU9ImZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6bm9ybWFsO2ZvbnQtc3RyZXRjaDpub3JtYWw7Zm9udC1mYW1pbHk6VHV0b3I7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpUdXRvcjtmaWxsOiNmZmZmZmY7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEuOTc3NTM4MjM7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmUiICAgICAgICAgaWQ9InBhdGgzMzkwIiAvPiAgICAgIDxwYXRoICAgICAgICAgZD0ibSA2NS41NTM5MzYsNzEuNTY2NTIgNS4yMzIyMzYsMCAwLDQuMjA5MDQ0IDUuODEzNTk2LDAgMCwzLjYwNDQyOSAtNS44MTM1OTYsMCAwLDQuODEzNjU4IDUuODEzNTk2LDAgMCwzLjYwNDQyOSAtMTEuMDQ1ODMyLDAgMCwtMTYuMjMxNTYgeiIgICAgICAgICBzdHlsZT0iZm9udC1zdHlsZTpub3JtYWw7Zm9udC12YXJpYW50Om5vcm1hbDtmb250LXdlaWdodDpub3JtYWw7Zm9udC1zdHJldGNoOm5vcm1hbDtmb250LWZhbWlseTpUdXRvcjstaW5rc2NhcGUtZm9udC1zcGVjaWZpY2F0aW9uOlR1dG9yO2ZpbGw6I2ZmZmZmZjtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MS45Nzc1MzgyMztzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZSIgICAgICAgICBpZD0icGF0aDMzOTIiIC8+ICAgICAgPHBhdGggICAgICAgICBkPSJtIDc3LjE2Mjk2LDc1Ljc3NTU2NCA1LjIzMjIzNiwwIDAsMTIuMDIyNTE2IC01LjIzMjIzNiwwIDAsLTEyLjAyMjUxNiB6IG0gMCwtNC4yMDkwNDQgNS4yMzIyMzYsMCAwLDMuNjA0NDMgLTUuMjMyMjM2LDAgMCwtMy42MDQ0MyB6IiAgICAgICAgIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0Om5vcm1hbDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtZmFtaWx5OlR1dG9yOy1pbmtzY2FwZS1mb250LXNwZWNpZmljYXRpb246VHV0b3I7ZmlsbDojZmZmZmZmO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxLjk3NzUzODIzO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lIiAgICAgICAgIGlkPSJwYXRoMzM5NCIgLz4gICAgICA8cGF0aCAgICAgICAgIGQ9Im0gODIuOTY3NDcyLDc1Ljc3NTU2NCA1LjgxMzU5NiwwIDAsLTQuMjA5MDQ0IDUuMjMyMjM2LDAgMCwxNi4yMzE1NiAtMTEuMDQ1ODMyLDAgMCwtMTIuMDIyNTE2IHogbSA1LjIzMjIzNiw4LjQxODA4NyAwLjU4MTM2LDAgMCwtNC44MTM2NTggLTAuNTgxMzYsMCAwLDQuODEzNjU4IHoiICAgICAgICAgc3R5bGU9ImZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6bm9ybWFsO2ZvbnQtc3RyZXRjaDpub3JtYWw7Zm9udC1mYW1pbHk6VHV0b3I7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpUdXRvcjtmaWxsOiNmZmZmZmY7c3Ryb2tlOiMwMDAwMDA7c3Ryb2tlLXdpZHRoOjEuOTc3NTM4MjM7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmUiICAgICAgICAgaWQ9InBhdGgzMzk2IiAvPiAgICAgIDxwYXRoICAgICAgICAgZD0ibSA5NC41NzY0OTYsNzUuNzc1NTY0IDExLjA0NTgzNCwwIDAsMTIuMDIyNTE2IC0xMS4wNDU4MzQsMCAwLC0xMi4wMjI1MTYgeiBtIDUuMjMyMjM3LDguNDE4MDg3IDAuNTgxMzU3LDAgMCwtNC44MTM2NTggLTAuNTgxMzU3LDAgMCw0LjgxMzY1OCB6IiAgICAgICAgIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0Om5vcm1hbDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtZmFtaWx5OlR1dG9yOy1pbmtzY2FwZS1mb250LXNwZWNpZmljYXRpb246VHV0b3I7ZmlsbDojZmZmZmZmO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxLjk3NzUzODIzO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lIiAgICAgICAgIGlkPSJwYXRoMzM5OCIgLz4gICAgICA8cGF0aCAgICAgICAgIGQ9Im0gMTA2LjE4NTUyLDcxLjU2NjUyIDUuMjMyMjQsMCAwLDQuMjA5MDQ0IDUuODEzNTksMCAwLDMuNjA0NDI5IC01LjgxMzU5LDAgMCw0LjgxMzY1OCA1LjgxMzU5LDAgMCwzLjYwNDQyOSAtMTEuMDQ1ODMsMCAwLC0xNi4yMzE1NiB6IiAgICAgICAgIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0Om5vcm1hbDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtZmFtaWx5OlR1dG9yOy1pbmtzY2FwZS1mb250LXNwZWNpZmljYXRpb246VHV0b3I7ZmlsbDojZmZmZmZmO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxLjk3NzUzODIzO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lIiAgICAgICAgIGlkPSJwYXRoMzQwMCIgLz4gICAgICA8cGF0aCAgICAgICAgIGQ9Im0gMTE3Ljc5NDU0LDc1Ljc3NTU2NCAxMS4wNDU4NCwwIDAsNy44MTM0NzMgLTUuODEzNiwwIDAsMC42MDQ2MTQgNS44MTM2LDAgMCwzLjYwNDQyOSAtMTEuMDQ1ODQsMCAwLC0xMi4wMjI1MTYgeiBtIDUuMjMyMjQsNC4yMDkwNDMgMC41ODEzNiwwIDAsLTAuNjA0NjE0IC0wLjU4MTM2LDAgMCwwLjYwNDYxNCB6IiAgICAgICAgIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0Om5vcm1hbDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtZmFtaWx5OlR1dG9yOy1pbmtzY2FwZS1mb250LXNwZWNpZmljYXRpb246VHV0b3I7ZmlsbDojZmZmZmZmO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoxLjk3NzUzODIzO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lIiAgICAgICAgIGlkPSJwYXRoMzQwMiIgLz4gICAgPC9nPiAgPC9nPjwvc3ZnPg==);
+}
+h2.filename {
+  font-family: monospace;
+}
+h1.textidote {
+  width: 378px;
+  height: 68px;
+  display: block;
+}
+.keyword1 {
+  font-weight: bold;
+  color: green;
+}
+.keyword2 {
+  font-weight: bold;
+  color: darkblue;
+}
+.comment, .comment * {
+  color: darkred;
+  font-weight: normal;
+}
+.linenb {
+  font-style: italic;
+  color: lightgrey;
+  width: 30pt;
+  float: left;
+  margin-top: 1pt;
+  margin-bottom: 1pt;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.codeline {
+  margin-left: -30pt;
+  padding-left: 60pt;
+  margin-top: 1pt;
+  margin-bottom: 1pt;
+}
+.no-text {
+  display: none;
+}
+.clear {
+  clear: both;
+}
+</style>
+</head>
+<body>
+<a href="https://sylvainhalle.github.io/textidote"><h1 class="textidote"><span class="no-text">Results of TeXtidote analysis</span></h1></a>
+<p>Here is the result of analyzing your file(s) with TeXtidote. Hover the mouse over highlighted portions of the document to read a tooltip that gives you some writing advice.</p>
+<p>Found 18 warning(s)</p>
+<div class="original-file">
+<div class="linenb">&nbsp;1</div><div class="codeline"><span class="keyword1">\documentclass</span>[twoside]{utmthesis}</div><div class="clear"></div>
+<div class="linenb">&nbsp;2</div><div class="codeline"><span class="comment">%According to the new manual, should not mixed single-side with two-side printing</span></div><div class="clear"></div>
+<div class="linenb">&nbsp;3</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">&nbsp;4</div><div class="codeline"><span class="keyword1">\usepackage</span>{graphicx}</div><div class="clear"></div>
+<div class="linenb">&nbsp;5</div><div class="codeline"><span class="keyword1">\usepackage</span>{url} </div><div class="clear"></div>
+<div class="linenb">&nbsp;6</div><div class="codeline"><span class="keyword1">\usepackage</span>[pages=some]{background}</div><div class="clear"></div>
+<div class="linenb">&nbsp;7</div><div class="codeline"><span class="keyword1">\usepackage</span>{natbib}</div><div class="clear"></div>
+<div class="linenb">&nbsp;8</div><div class="codeline"><span class="comment">%\let\cite\citep</span></div><div class="clear"></div>
+<div class="linenb">&nbsp;9</div><div class="codeline"><span class="keyword1">\usepackage</span>{lipsum}</div><div class="clear"></div>
+<div class="linenb">10</div><div class="codeline"><span class="keyword1">\usepackage</span>{enumitem}</div><div class="clear"></div>
+<div class="linenb">11</div><div class="codeline"><span class="keyword1">\usepackage</span>{pdflscape}</div><div class="clear"></div>
+<div class="linenb">12</div><div class="codeline"><span class="keyword1">\usepackage</span>{lscape}</div><div class="clear"></div>
+<div class="linenb">13</div><div class="codeline"><span class="keyword1">\usepackage</span>[per-mode=fraction]{siunitx}</div><div class="clear"></div>
+<div class="linenb">14</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">15</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">16</div><div class="codeline"><span class="keyword2">\begin{document}</span></div><div class="clear"></div>
+<div class="linenb">17</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">18</div><div class="codeline"><span class="comment">% Required information</span></div><div class="clear"></div>
+<div class="linenb">19</div><div class="codeline"><span class="keyword1">\title</span>{News Event Prediction using Causality Approach}</div><div class="clear"></div>
+<div class="linenb">20</div><div class="codeline"><span class="keyword1">\title</span>two{on South China Sea Conflict}</div><div class="clear"></div>
+<div class="linenb">21</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">22</div><div class="codeline">\author{<span class="highlight-spelling" title="Possible spelling mistake found. Suggestions: [To, Two, Too, Ten, Tho, Tea, Ted, Geo, Tao, TeX, Tee, Tel, EEO, CEO, Leo, TKO, Te, Tet, Tex, AEO, BEO, EO, SEO, TAO, TCO, TEB, TEC, TED, TEE, TEF, TEI, TEM, TEP, TEQ, TER, TES, TEV, TNO, TO, TOE, TPO, TSO, TTO, TVO, TYO] (77) [lt:en:MORFOLOGIK_RULE_EN_US]">TEO</span> WEN LONG}</div><div class="clear"></div>
+<div class="linenb">23</div><div class="codeline">\degree{Bachelor Degree of Computer Science}</div><div class="clear"></div>
+<div class="linenb">24</div><div class="codeline">\specialization{Network and Security}</div><div class="clear"></div>
+<div class="linenb">25</div><div class="codeline">\intakeyear{2016}</div><div class="clear"></div>
+<div class="linenb">26</div><div class="codeline">\school{School of Computing}</div><div class="clear"></div>
+<div class="linenb">27</div><div class="codeline">\faculty{Faculty of Engineering}</div><div class="clear"></div>
+<div class="linenb">28</div><div class="codeline"><span class="keyword1">\title</span>date{January 2019}</div><div class="clear"></div>
+<div class="linenb">29</div><div class="codeline">\award{1}</div><div class="clear"></div>
+<div class="linenb">30</div><div class="codeline"><span class="comment">% Options for Award </span></div><div class="clear"></div>
+<div class="linenb">31</div><div class="codeline"><span class="comment">% 1. Bachelor Degree Project Report</span></div><div class="clear"></div>
+<div class="linenb">32</div><div class="codeline">\superone{Dr. <span class="highlight-spelling" title="Possible spelling mistake found. Suggestions: [Canada, Nazi, Arabia, Nazis, Amazing, Amanda, Anita, Amazed, Anemia, Anglia, Mazda, Nadia, Nazism, Oneida, Angina, Ataxia, Acadia, Aida, Amalia, Haida, Acacia, Ananias, Anaconda, Antacid, Antacids, Candida, Naiad, Azania, Anacin, Nazca, ANIA, Antifa] (222) [lt:en:MORFOLOGIK_RULE_EN_US]">Anazida</span> <span class="highlight-spelling" title="Possible spelling mistake found. Suggestions: [Into, Anti, Birth, Bit, Mini, Ninth, Bin, Bits, Hindi, Bent, Bind, Binds, Bite, Hints, Mint, Sinai, Hint, Bantu, Binge, Bingo, Bins, Mints, Pint, Tint, Biotin, Bunt, Pints, Tints, Lint, Pinto, Bani, Bunts, INRI, Bents, Jinni, Minty, Blini, Blintz, Linty, Mbini, Bitty, Dint, Int, Lints, BII, BIN, BNEI, BNI, BNT, BTI, EISTI, INEI, INT, INTG, Bitt, Bitts] (230) [lt:en:MORFOLOGIK_RULE_EN_US]">Binti</span> <span class="highlight-spelling" title="Possible spelling mistake found. Suggestions: [Final, Canal, Spinal, Faisal, Zonal, Baikal, Banal, Tainan, Danial, Gienah, Anal, Carnal, Urinal, Vaginal, AANAL] (236) [lt:en:MORFOLOGIK_RULE_EN_US]"></span>Zainal}</div><div class="clear"></div>
+<div class="linenb">33</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">34</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">35</div><div class="codeline"><span class="comment">% Mandatory pages</span></div><div class="clear"></div>
+<div class="linenb">36</div><div class="codeline">\<span class="highlight-spelling" title="Possible spelling mistake found. Suggestions: [coverage, cover page] (245) [lt:en:MORFOLOGIK_RULE_EN_US]"></span>coverpage</div><div class="clear"></div>
+<div class="linenb">37</div><div class="codeline">\certification</div><div class="clear"></div>
+<div class="linenb">38</div><div class="codeline">\<span class="highlight-spelling" title="Possible spelling mistake found. Suggestions: [front matter] (273) [lt:en:MORFOLOGIK_RULE_EN_US]"></span>frontmatter</div><div class="clear"></div>
+<div class="linenb">39</div><div class="codeline"><span class="keyword1">\maketitle</span></div><div class="clear"></div>
+<div class="linenb">40</div><div class="codeline">\declaration</div><div class="clear"></div>
+<div class="linenb">41</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">42</div><div class="codeline"><span class="keyword2">\begin{dedication}</span></div><div class="clear"></div>
+<div class="linenb">43</div><div class="codeline">This thesis is dedicated to my father, who taught me that the best kind of knowledge to have is that which is learned for its own sake. It is also dedicated to my mother, who taught me that even the largest task can be accomplished if it is done one step at a time.\</div><div class="clear"></div>
+<div class="linenb">44</div><div class="codeline"><span class="keyword2">\end{dedication}</span></div><div class="clear"></div>
+<div class="linenb">45</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">46</div><div class="codeline"><span class="keyword2">\begin{acknowledgement}</span></div><div class="clear"></div>
+<div class="linenb">47</div><div class="codeline"><span class="highlight" title="Possible typo: you repeated a word. Suggestions: [Acknowledgement] (609) [lt:en:ENGLISH_WORD_REPEAT_RULE]"></span>Acknowledgement</div><div class="clear"></div>
+<div class="linenb">48</div><div class="codeline"><span class="keyword2">\end{acknowledgement}</span></div><div class="clear"></div>
+<div class="linenb">49</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">50</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">51</div><div class="codeline"><span class="keyword2">\begin{abstract}</span></div><div class="clear"></div>
+<div class="linenb">52</div><div class="codeline">A 1-page abstract is a <span class="keyword1">\emph</span>{movie (thesis) trailer}. Avoid summarizing</div><div class="clear"></div>
+<div class="linenb">53</div><div class="codeline">your Introduction chapter. Focus on the problem statement, hypothesis/objective,</div><div class="clear"></div>
+<div class="linenb">54</div><div class="codeline">research approach, quantitative validation summary, and implication</div><div class="clear"></div>
+<div class="linenb">55</div><div class="codeline">of your findings. For <span class="highlight-spelling" title="Possible spelling mistake found. Suggestions: [pH, PA, PC, Mph, PM, PhD, Pm, PR, PT, Oh, PD, Pa, Pi, PJ, Ah, Sh, PW, Eh, Phi, Pt, Uh, PX, Pah, Pk, Kph, PS, Ch, DH, H, NH, OH, P, PE, PG, PO, PP, Pb, Pd, Pl, Po, Pr, Pu, Rh, Th, Pf, Pg, Pj, Pp, P h, PH, APH, BPH, CH, CPH, DPH, FPH, GH, IH, LH, MH, MPH, PAH, PB, PHA, PHC, PHD, PHI, PHL, PHP, PHR, PHS, PHX, PK, PL, PLH, PMH, PNH, POH, PPH, PQ, PTH, PU, PV, SH, SPH, TH, VH, VPH, ZH] (882) [lt:en:MORFOLOGIK_RULE_EN_US]">Ph<span class="highlight-sh" title="There should be a space after a period. If you are writing a URL or a filename, use the \url{} or \verb markup. [sh:d:002]"></span>.D</span>., emphasize on original contributions.</div><div class="clear"></div>
+<div class="linenb">56</div><div class="codeline"><span class="keyword2">\end{abstract}</span></div><div class="clear"></div>
+<div class="linenb">57</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">58</div><div class="codeline"><span class="keyword2">\begin{<span class="highlight-spelling" title="Possible spelling mistake found. Suggestions: [abstract, Amtrak, astral, astray, austral] (927) [lt:en:MORFOLOGIK_RULE_EN_US]"></span>abstrak}</span></div><div class="clear"></div>
+<div class="linenb">59</div><div class="codeline">The Malay abstract is written as the sentence structure of the English</div><div class="clear"></div>
+<div class="linenb">60</div><div class="codeline">abstract. All specific terms must be checked with <span class="highlight-spelling" title="Possible spelling mistake found. Suggestions: [Dean, Dewey, Dewar] (1058) [lt:en:MORFOLOGIK_RULE_EN_US]">Dewan</span> <span class="highlight-spelling" title="Possible spelling mistake found. Suggestions: [Bahama] (1064) [lt:en:MORFOLOGIK_RULE_EN_US]">Bahasa</span> and</div><div class="clear"></div>
+<div class="linenb">61</div><div class="codeline"><span class="highlight-spelling" title="Possible spelling mistake found. Suggestions: [Lusaka] (1076) [lt:en:MORFOLOGIK_RULE_EN_US]">Pustaka</span> (\url{http://prpm.dbp.gov.my/}). </div><div class="clear"></div>
+<div class="linenb">62</div><div class="codeline"><span class="keyword2">\end{<span class="highlight-spelling" title="Possible spelling mistake found. Suggestions: [abstract, Amtrak, astral, astray, austral] (1091) [lt:en:MORFOLOGIK_RULE_EN_US]"></span>abstrak}</span></div><div class="clear"></div>
+<div class="linenb">63</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">64</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">65</div><div class="codeline">\<span class="highlight-spelling" title="Possible spelling mistake found (1101) [lt:en:MORFOLOGIK_RULE_EN_US]"></span>tableofcontents</div><div class="clear"></div>
+<div class="linenb">66</div><div class="codeline">\<span class="highlight-spelling" title="Possible spelling mistake found (1119) [lt:en:MORFOLOGIK_RULE_EN_US]"></span>listoftables</div><div class="clear"></div>
+<div class="linenb">67</div><div class="codeline">\<span class="highlight-spelling" title="Possible spelling mistake found (1134) [lt:en:MORFOLOGIK_RULE_EN_US]"></span>listoffigures</div><div class="clear"></div>
+<div class="linenb">68</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">69</div><div class="codeline">&nbsp;</div><div class="clear"></div>
+<div class="linenb">70</div><div class="codeline"><span class="comment">%List of abbreviation </span></div><div class="clear"></div>
+<div class="linenb">71</div><div class="codeline">\<span class="highlight-spelling" title="Possible spelling mistake found (1150) [lt:en:MORFOLOGIK_RULE_EN_US]"></span>listofabbre</div><div class="clear"></div>
+<div class="linenb">72</div><div class="codeline">\addabbre{ANN}{Artificial Neural Network}</div><div class="clear"></div>
+<div class="linenb">73</div><div class="codeline">\addabbre{PC}{Per</div><div class="clear"></div>
+</div>
+<hr/>
+Output produced by TeXtidote v0.7, &copy; 2018-2019 Sylvain Hall&eacute; - All rights reserved.<br/>
+See the <a href="https://sylvainhalle.github.io/sylvainhalle/textidote">TeXtidote website</a> for more information.
+</body>
+</html>

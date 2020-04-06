@@ -1,0 +1,45 @@
+
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {DECLARATION}}{iii}{section*.7}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {DEDICATION}}{iv}{section*.9}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {ACKNOWLEDGEMENT}}{v}{section*.11}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {ABSTRACT}}{vi}{section*.13}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {ABSTRAK}}{vii}{section*.15}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {TABLE OF CONTENTS}}{viii}{section*.17}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF TABLES}}{ix}{section*.19}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF FIGURES}}{x}{section*.21}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF ABBREVIATIONS}}{xi}{section*.23}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF SYMBOLS}}{xii}{section*.25}% 
+\contentsline {chapter}{\hspace {\toc@tab@a }\MakeUppercase {LIST OF APPENDICES}}{xiii}{section*.27}% 
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 1}\MakeUppercase {Introduction}}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Definition of thesis }{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Main steps in thesis/dissertation/report writing}{2}{section.1.2}% 
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 2}\MakeUppercase {Thesis structure shown as a very very very very very very very very very very very very very very very very very very very very very very very long title}}{5}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Thesis title (SPS guidelines)}{5}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Flow of arguments }{5}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Thesis }{6}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Abstract }{6}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Introducing your work}{6}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.4}Discussion of the problem and state-of-the-art solutions to problem }{6}{subsection.2.2.4}% 
+\contentsline {subsection}{\numberline {2.2.5}Your proposed work}{7}{subsection.2.2.5}% 
+\contentsline {subsection}{\numberline {2.2.6}Validation of hyposthesis}{8}{subsection.2.2.6}% 
+\contentsline {subsection}{\numberline {2.2.7}Take home message to readers}{8}{subsection.2.2.7}% 
+\contentsline {subsection}{\numberline {2.2.8}References to back up your statements}{8}{subsection.2.2.8}% 
+\contentsline {subsection}{\numberline {2.2.9}Appendices}{9}{subsection.2.2.9}% 
+\contentsline {section}{\numberline {2.3}Suggested order for writing}{9}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}The revision journey }{9}{section.2.4}% 
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 3}\MakeUppercase {Results and Discussion}}{11}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Graphic and Images}{11}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Floats}{11}{section.3.2}% 
+\addvspace {\@twolinespacing }
+\contentsline {chapter}{\numberline {\MakeUppercase {Chapter} 4}\MakeUppercase {Conclusion}}{15}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Research Outcomes}{15}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Contributions to Knowledge}{15}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Future Works}{15}{section.4.3}% 
+\contentsline {chapter}{LIST OF PUBLICATIONS}{17}{section*.34}% 
+\save@tocdepth \setcounter {tocdepth}{0}
+\save@tocdepth \setcounter {tocdepth}{0}
+\vspace {\@twolinespacing }
+\save@tocdepth \setcounter {tocdepth}{2}

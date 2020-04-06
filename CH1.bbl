@@ -1,0 +1,71 @@
+\makeatletter
+  \def\@biblabel#1{}
+  \renewcommand\@openbib@code{%
+    \advance\leftmargin\bibindent
+    \itemindent -\bibindent
+    \listparindent \itemindent
+  }%
+\makeatother
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{Retrievable at }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Baker(2019)}]{jamesbaker2019}
+Baker, J. (2019).
+\newblock \emph{Machine Learning Versus The News}.
+\newblock
+  \urlprefix\url{https://towardsdatascience.com/machine-learning-versus-the-news-3b5b479d8e6a}.
+
+\bibitem[{Bell(2016)}]{bryanbell2016}
+Bell, B. (2016).
+\newblock \emph{The Road to Prediction: Using Unstructured Data}.
+\newblock
+  \urlprefix\url{https://www.dataversity.net/the-road-to-prediction-using-unstructured-data/}.
+
+\bibitem[{Casert(2016)}]{rafcasert}
+Casert, R. (2016).
+\newblock \emph{Belgium ramps up security for lone suspect in Jewish Museum
+  attack}.
+\newblock
+  \urlprefix\url{https://archive.is/20140527190719/http://www.theglobeandmail.com/news/world/police-hunt-brussels-jewish-museum-shooter-france-tightens-security/article18835439/#selection-583.1-583.67}.
+
+\bibitem[{D.Goltz(2018)}]{jamesd.goltz2018}
+D.Goltz, J. (2018).
+\newblock \emph{Earthquake advisories can save lives}.
+\newblock
+  \urlprefix\url{https://www.japantimes.co.jp/opinion/2018/04/17/commentary/japan-commentary/earthquake-advisories-can-save-lives/#.XIc8d7NbzeQ}.
+
+\bibitem[{E.Hayes(1980)}]{dennise.hayes1980}
+E.Hayes, D. (1980).
+\newblock South China Sea, PACIFIC OCEAN. \emph{The Tectonic and Geologic
+  Evolution of Southeast Asian Seas and Islands}.
+
+\bibitem[{Erevelles \emph{et~al.}(2016)Erevelles, Fukawa and
+  Swayne}]{erevelles2016big}
+Erevelles, S., Fukawa, N. and Swayne, L. (2016).
+\newblock Big Data consumer analytics and the transformation of marketing.
+  \emph{Journal of Business Research}.
+\newblock 69(2), 897--904.
+
+\bibitem[{Gonzales(2014)}]{gonzales2014spratly}
+Gonzales, R. (2014).
+\newblock The Spratly Islands Dispute: International Law, Conflicting Claims,
+  and Alternative Frameworks For Dispute Resolution.
+
+\bibitem[{Taylor(2018)}]{christinetaylor2018}
+Taylor, C. (2018).
+\newblock \emph{Structured vs. Unstructured Data}.
+\newblock
+  \urlprefix\url{https://www.datamation.com/big-data/structured-vs-unstructured-data.html}.
+
+\bibitem[{Zhen(2014)}]{liuzhen2014}
+Zhen, L. (2014).
+\newblock What's China's 'Nine-Dash Line' and why has it created so much
+  tension in the South China Sea? \emph{South China Morning Post}.
+
+\end{thebibliography}
