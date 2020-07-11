@@ -6,7 +6,7 @@
     \listparindent \itemindent
   }%
 \makeatother
-\begin{thebibliography}{67}
+\begin{thebibliography}{72}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{Retrievable at }
@@ -21,13 +21,6 @@ Afzal, M.~T., Maurer, H., Balke, W.-T. and Kulathuramaiyer, N. (2010).
 \newblock Rule based autonomous citation mining with TIERL. \emph{Journal of
   Digital Information Management}.
 \newblock 8(3), 196--204.
-
-\bibitem[{Anantharam \emph{et~al.}(2015)Anantharam, Barnaghi, Thirunarayan and
-  Sheth}]{anantharam2015extracting}
-Anantharam, P., Barnaghi, P., Thirunarayan, K. and Sheth, A. (2015).
-\newblock Extracting city traffic events from social streams. \emph{ACM
-  Transactions on Intelligent Systems and Technology (TIST)}.
-\newblock 6(4), 43.
 
 \bibitem[{Asencio-Cort{\'e}s \emph{et~al.}(2017)Asencio-Cort{\'e}s,
   Mart{\'\i}nez-{\'A}lvarez, Troncoso and Morales-Esteban}]{asencio2017medium}
@@ -63,6 +56,12 @@ Bandaragoda, T.~R., De~Silva, D., Alahakoon, D., Ranasinghe, W. and Bolton, D.
 Battistella, G. (2005).
 \newblock The World's Biggest Propaganda Agency. \emph{Reporters Without
   Borders}.
+
+\bibitem[{Bekkali and Lachkar(2019)}]{bekkali2019effective}
+Bekkali, M. and Lachkar, A. (2019).
+\newblock An effective short text conceptualization based on new short text
+  similarity. \emph{Social Network Analysis and Mining}.
+\newblock 9(1), 1.
 
 \bibitem[{Bell(2016)}]{bryanbell2016}
 Bell, B. (2016).
@@ -102,16 +101,29 @@ Choi, M., Liu, H., Baumgartner, W., Zobel, J. and Verspoor, K. (2016).
   Language statements from texts. \emph{Database}.
 \newblock 2016.
 
-\bibitem[{Dahlhaus and Eichler(2003)}]{dahlhaus2003causality}
-Dahlhaus, R. and Eichler, M. (2003).
-\newblock Causality and graphical models in time series analysis. \emph{Oxford
-  Statistical Science Series}, 115--137.
+\bibitem[{Conneau \emph{et~al.}(2017)Conneau, Kiela, Schwenk, Barrault and
+  Bordes}]{conneau2017supervised}
+Conneau, A., Kiela, D., Schwenk, H., Barrault, L. and Bordes, A. (2017).
+\newblock Supervised learning of universal sentence representations from
+  natural language inference data. \emph{arXiv preprint arXiv:1705.02364}.
 
 \bibitem[{Dami \emph{et~al.}(2018)Dami, Barforoush and Shirazi}]{dami2018news}
 Dami, S., Barforoush, A.~A. and Shirazi, H. (2018).
 \newblock News events prediction using Markov logic networks. \emph{Journal of
   Information Science}.
 \newblock 44(1), 91--109.
+
+\bibitem[{de~Marneffe \emph{et~al.}(????)de~Marneffe, Dozat, Silveira,
+  Haverinen, Ginter, Nivre and Manning}]{deuniversal}
+de~Marneffe, M.-C., Dozat, T., Silveira, N., Haverinen, K., Ginter, F., Nivre,
+  J. and Manning, C.~D. (????).
+\newblock Universal Dependencies: A cross-linguistic typology.
+
+\bibitem[{Devlin \emph{et~al.}(2018)Devlin, Chang, Lee and
+  Toutanova}]{devlin2018bert}
+Devlin, J., Chang, M.-W., Lee, K. and Toutanova, K. (2018).
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding. \emph{arXiv preprint arXiv:1810.04805}.
 
 \bibitem[{D.Goltz(2018)}]{jamesd.goltz2018}
 D.Goltz, J. (2018).
@@ -126,14 +138,6 @@ Ding, X., Zhang, Y., Liu, T. and Duan, J. (2015).
 \newblock In \emph{Twenty-Fourth International Joint Conference on Artificial
   Intelligence}.
 
-\bibitem[{Ding \emph{et~al.}(2016)Ding, Zhang, Liu and
-  Duan}]{ding2016knowledge}
-Ding, X., Zhang, Y., Liu, T. and Duan, J. (2016).
-\newblock Knowledge-driven event embedding for stock prediction.
-\newblock
-\newblock In \emph{Proceedings of COLING 2016, the 26th International
-  Conference on Computational Linguistics: Technical Papers}. 2133--2142.
-
 \bibitem[{E.Hayes(1980)}]{dennise.hayes1980}
 E.Hayes, D. (1980).
 \newblock South China Sea, PACIFIC OCEAN. \emph{The Tectonic and Geologic
@@ -145,13 +149,6 @@ Erevelles, S., Fukawa, N. and Swayne, L. (2016).
 \newblock Big Data consumer analytics and the transformation of marketing.
   \emph{Journal of Business Research}.
 \newblock 69(2), 897--904.
-
-\bibitem[{Fader \emph{et~al.}(2011)Fader, Soderland and Etzioni}]{ReVerb2011}
-Fader, A., Soderland, S. and Etzioni, O. (2011).
-\newblock Identifying Relations for Open Information Extraction.
-\newblock In \emph{Proceedings of the Conference of Empirical Methods in
-  Natural Language Processing ({EMNLP} '11)}.
-\newblock  July 27-31. Edinburgh, Scotland, UK.
 
 \bibitem[{Fedoryszak \emph{et~al.}(2019)Fedoryszak, Frederick, Rajaram and
   Zhong}]{fedoryszak2019real}
@@ -204,6 +201,19 @@ Grolinger, K., L’Heureux, A., Capretz, M.~A. and Seewald, L. (2016).
   accuracy. \emph{Energy and Buildings}.
 \newblock 112, 222--233.
 
+\bibitem[{Hendrickx \emph{et~al.}(2010)Hendrickx, Kim, Kozareva, Nakov,
+  {\'O}~S{\'e}aghdha, Pad{\'o}, Pennacchiotti, Romano and
+  Szpakowicz}]{hendrickx-etal-2010-semeval}
+Hendrickx, I., Kim, S.~N., Kozareva, Z., Nakov, P., {\'O}~S{\'e}aghdha, D.,
+  Pad{\'o}, S., Pennacchiotti, M., Romano, L. and Szpakowicz, S. (2010).
+\newblock {S}em{E}val-2010 Task 8: Multi-Way Classification of Semantic
+  Relations between Pairs of Nominals.
+\newblock In \emph{Proceedings of the 5th International Workshop on Semantic
+  Evaluation}.
+\newblock  July. Uppsala, Sweden: Association for Computational Linguistics,
+  33--38.
+\newblock \urlprefix\url{https://www.aclweb.org/anthology/S10-1006}.
+
 \bibitem[{Hogenboom \emph{et~al.}(2011)Hogenboom, Frasincar, Kaymak and
   De~Jong}]{hogenboom2011overview}
 Hogenboom, F., Frasincar, F., Kaymak, U. and De~Jong, F. (2011).
@@ -213,13 +223,6 @@ Hogenboom, F., Frasincar, F., Kaymak, U. and De~Jong, F. (2011).
   Conference (ISWC 2011)},
 \newblock vol. 779. Citeseer, 48--57.
 
-\bibitem[{Hogenboom \emph{et~al.}(2016)Hogenboom, Frasincar, Kaymak, De~Jong
-  and Caron}]{hogenboom2016survey}
-Hogenboom, F., Frasincar, F., Kaymak, U., De~Jong, F. and Caron, E. (2016).
-\newblock A survey of event extraction methods from text for decision support
-  systems. \emph{Decision Support Systems}.
-\newblock 85, 12--22.
-
 \bibitem[{Hu \emph{et~al.}(2017)Hu, Li, Nie, Li and Shao}]{hu2017happens}
 Hu, L., Li, J., Nie, L., Li, X.-L. and Shao, C. (2017).
 \newblock What happens next? Future subevent prediction using contextual
@@ -227,34 +230,17 @@ Hu, L., Li, J., Nie, L., Li, X.-L. and Shao, C. (2017).
 \newblock
 \newblock In \emph{Thirty-First AAAI Conference on Artificial Intelligence}.
 
-\bibitem[{Jae-Wook~Ahn(2005)}]{jaewookahnsueyeonsyn2005}
-Jae-Wook~Ahn, S. Y.~S. (2005).
-\newblock \emph{Self-Organizing Maps}.
-\newblock
-  \urlprefix\url{http://www.pitt.edu/~is2470pb/Spring05/FinalProjects/Group1a/tutorial/som.html}.
-
-\bibitem[{Kaschesky \emph{et~al.}(2011)Kaschesky, Sobkowicz and
-  Bouchard}]{kaschesky2011opinion}
-Kaschesky, M., Sobkowicz, P. and Bouchard, G. (2011).
-\newblock Opinion mining in social media: modeling, simulating, and visualizing
-  political opinion formation in the web.
-\newblock
-\newblock In \emph{Proceedings of the 12th Annual International Digital
-  Government Research Conference: Digital Government Innovation in Challenging
-  Times}. ACM, 317--326.
-
-\bibitem[{KAUSHIK(2016)}]{sauravkaushik2016}
-KAUSHIK, S. (2016).
-\newblock \emph{An Introduction to Clustering and different methods of
-  clustering}.
-\newblock
-  \urlprefix\url{https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/}.
-
 \bibitem[{Kulkarni(2019)}]{rohitbigdata2019}
 Kulkarni, R. (2019).
 \newblock \emph{Big Data Goes Big}.
 \newblock
   \urlprefix\url{https://www.forbes.com/sites/rkulkarni/2019/02/07/big-data-goes-big/#5c7be26420d7}.
+
+\bibitem[{Le and Mikolov(2014)}]{le2014distributed}
+Le, Q. and Mikolov, T. (2014).
+\newblock Distributed representations of sentences and documents.
+\newblock
+\newblock In \emph{International conference on machine learning}. 1188--1196.
 
 \bibitem[{Letham \emph{et~al.}(2013)Letham, Rudin and
   Madigan}]{letham2013sequential}
@@ -266,6 +252,15 @@ Letham, B., Rudin, C. and Madigan, D. (2013).
 Li, Z., Ding, X. and Liu, T. (2018).
 \newblock Constructing narrative event evolutionary graph for script event
   prediction. \emph{arXiv preprint arXiv:1805.05081}.
+
+\bibitem[{Lilleberg \emph{et~al.}(2015)Lilleberg, Zhu and
+  Zhang}]{lilleberg2015support}
+Lilleberg, J., Zhu, Y. and Zhang, Y. (2015).
+\newblock Support vector machines and word2vec for text classification with
+  semantic features.
+\newblock
+\newblock In \emph{2015 IEEE 14th International Conference on Cognitive
+  Informatics \& Cognitive Computing (ICCI* CC)}. IEEE, 136--140.
 
 \bibitem[{Lima \emph{et~al.}(2009)Lima, Mues and Baesens}]{lima2009domain}
 Lima, E., Mues, C. and Baesens, B. (2009).
@@ -281,8 +276,31 @@ Maziarz, M., Heagerty, P., Cai, T. and Zheng, Y. (2017).
   modeling options. \emph{Biometrics}.
 \newblock 73(1), 83--93.
 
+\bibitem[{Mele \emph{et~al.}(2019)Mele, Bahrainian and
+  Crestani}]{mele2019event}
+Mele, I., Bahrainian, S.~A. and Crestani, F. (2019).
+\newblock Event mining and timeliness analysis from heterogeneous news streams.
+  \emph{Information Processing \& Management}.
+\newblock 56(3), 969--993.
+
 \bibitem[{Michael~Benz(2017)}]{michaelbenzmoritzmuller}
 Michael~Benz, M.~M.\emph{ (2017)}.
+
+\bibitem[{Mikolov \emph{et~al.}(2013{\natexlab{a}})Mikolov, Chen, Corrado and
+  Dean}]{mikolov2013efficient}
+Mikolov, T., Chen, K., Corrado, G. and Dean, J. (2013{\natexlab{a}}).
+\newblock Efficient estimation of word representations in vector space.
+  \emph{arXiv preprint arXiv:1301.3781}.
+
+\bibitem[{Mikolov \emph{et~al.}(2013{\natexlab{b}})Mikolov, Sutskever, Chen,
+  Corrado and Dean}]{mikolov2013distributed}
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G.~S. and Dean, J.
+  (2013{\natexlab{b}}).
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock
+\newblock In \emph{Advances in neural information processing systems}.
+  3111--3119.
 
 \bibitem[{Mirza(2014)}]{mirza2014extracting}
 Mirza, P. (2014).
@@ -324,6 +342,14 @@ Pechsiri, C. and Piriyakul, R. (2010).
   from texts. \emph{Journal of computer science and technology}.
 \newblock 25(5), 1055--1070.
 
+\bibitem[{Pennington \emph{et~al.}(2014)Pennington, Socher and
+  Manning}]{pennington2014glove}
+Pennington, J., Socher, R. and Manning, C.~D. (2014).
+\newblock Glove: Global vectors for word representation.
+\newblock
+\newblock In \emph{Proceedings of the 2014 conference on empirical methods in
+  natural language processing (EMNLP)}. 1532--1543.
+
 \bibitem[{Poesio \emph{et~al.}(2016)Poesio, Stuckardt and
   Versley}]{poesio2016anaphora}
 Poesio, M., Stuckardt, R. and Versley, Y. (2016).
@@ -345,13 +371,19 @@ Radinsky, K., Davidovich, S. and Markovitch, S. (2012).
 \newblock In \emph{Proceedings of the 21st international conference on World
   Wide Web}. ACM, 909--918.
 
-\bibitem[{Radinsky \emph{et~al.}(2014)Radinsky, Davidovich and
-  Markovitch}]{radinsky2014pundit}
-Radinsky, K., Davidovich, S. and Markovitch, S. (2014).
-\newblock Learning to Predict from Textual Data. \emph{Journal of Artificial
-  Intelligence Research}.
-\newblock 45.
-\newblock \doi{10.1613/jair.3865}.
+\bibitem[{Riloff \emph{et~al.}(1993)}]{riloff1993automatically}
+Riloff, E. \emph{et~al.} (1993).
+\newblock Automatically constructing a dictionary for information extraction
+  tasks.
+\newblock In \emph{AAAI},
+\newblock vol.~1. Citeseer, 2--1.
+
+\bibitem[{Ritter \emph{et~al.}(2012)Ritter, Etzioni and Clark}]{ritter2012open}
+Ritter, A., Etzioni, O. and Clark, S. (2012).
+\newblock Open domain event extraction from twitter.
+\newblock
+\newblock In \emph{Proceedings of the 18th ACM SIGKDD international conference
+  on Knowledge discovery and data mining}. 1104--1112.
 
 \bibitem[{Rospocher \emph{et~al.}(2016)Rospocher, van Erp, Vossen, Fokkens,
   Aldabe, Rigau, Soroa, Ploeger and Bogaard}]{rospocher2016building}
@@ -367,18 +399,20 @@ Rumi, S.~K., Deng, K. and Salim, F.~D. (2018).
   Science}.
 \newblock 7(1), 43.
 
-\bibitem[{Seth(2007)}]{Seth2007}
-Seth, A. (2007).
-\newblock {G}ranger causality. \emph{Scholarpedia}.
-\newblock 2(7), 1667.
-\newblock \doi{10.4249/scholarpedia.1667}.
-\newblock Revision \#127333.
+\bibitem[{Sankaranarayanan \emph{et~al.}(2009)Sankaranarayanan, Samet, Teitler,
+  Lieberman and Sperling}]{sankaranarayanan2009twitterstand}
+Sankaranarayanan, J., Samet, H., Teitler, B.~E., Lieberman, M.~D. and Sperling,
+  J. (2009).
+\newblock Twitterstand: news in tweets.
+\newblock
+\newblock In \emph{Proceedings of the 17th acm sigspatial international
+  conference on advances in geographic information systems}. 42--51.
 
-\bibitem[{Suyal \emph{et~al.}(2014)Suyal, Panwar and Negi}]{suyal2014text}
-Suyal, H., Panwar, A. and Negi, A.~S. (2014).
-\newblock Text Clustering Algorithms: A Review. \emph{International Journal of
-  Computer Applications}.
-\newblock 96(24).
+\bibitem[{Schinas \emph{et~al.}(2018)Schinas, Papadopoulos, Kompatsiaris and
+  Mitkas}]{schinas2018event}
+Schinas, M., Papadopoulos, S., Kompatsiaris, Y. and Mitkas, P. (2018).
+\newblock Event detection and retrieval on social media. \emph{arXiv preprint
+  arXiv:1807.03675}.
 
 \bibitem[{Tan \emph{et~al.}(1999)}]{tan1999text}
 Tan, A.-H. \emph{et~al.} (1999).
@@ -392,6 +426,18 @@ Taylor, C. (2018).
 \newblock \emph{Structured vs. Unstructured Data}.
 \newblock
   \urlprefix\url{https://www.datamation.com/big-data/structured-vs-unstructured-data.html}.
+
+\bibitem[{Torabi~Asr \emph{et~al.}(2018)Torabi~Asr, Zinkov and
+  Jones}]{torabi-asr-etal-2018-querying}
+Torabi~Asr, F., Zinkov, R. and Jones, M. (2018).
+\newblock Querying Word Embeddings for Similarity and Relatedness.
+\newblock In \emph{Proceedings of the 2018 Conference of the North {A}merican
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 1 (Long Papers)}.
+\newblock  June. New Orleans, Louisiana: Association for Computational
+  Linguistics, 675--684.
+\newblock \doi{10.18653/v1/N18-1062}.
+\newblock \urlprefix\url{https://www.aclweb.org/anthology/N18-1062}.
 
 \bibitem[{Tung \emph{et~al.}(2016)Tung, Wang and Chen}]{tung2016mining}
 Tung, K.-C., Wang, E.~T. and Chen, A.~L. (2016).
@@ -416,13 +462,6 @@ Vargas, M.~R., De~Lima, B.~S. and Evsukoff, A.~G. (2017).
   Intelligence and Virtual Environments for Measurement Systems and
   Applications (CIVEMSA)}. IEEE, 60--65.
 
-\bibitem[{Vesanto \emph{et~al.}(2000)Vesanto, Alhoniemi
-  \emph{et~al.}}]{vesanto2000clustering}
-Vesanto, J., Alhoniemi, E. \emph{et~al.} (2000).
-\newblock Clustering of the self-organizing map. \emph{IEEE Transactions on
-  neural networks}.
-\newblock 11(3), 586--600.
-
 \bibitem[{Vossen \emph{et~al.}(2016)Vossen, Agerri, Aldabe, Cybulska, van Erp,
   Fokkens, Laparra, Minard, Aprosio, Rigau
   \emph{et~al.}}]{vossen2016newsreader}
@@ -440,6 +479,18 @@ Wu, Y., Sun, H. and Yan, C. (2017).
 \newblock In \emph{2017 IEEE 2nd International Conference on Big Data Analysis
   (ICBDA)(}. IEEE, 697--702.
 
+\bibitem[{Xiang and Wang(2019)}]{xiang2019survey}
+Xiang, W. and Wang, B. (2019).
+\newblock A Survey of Event Extraction From Text. \emph{IEEE Access}.
+\newblock 7, 173111--173137.
+
+\bibitem[{Yang \emph{et~al.}(2018)Yang, Yuan, Cer, Kong, Constant, Pilar, Ge,
+  Sung, Strope and Kurzweil}]{yang2018learning}
+Yang, Y., Yuan, S., Cer, D., Kong, S.-Y., Constant, N., Pilar, P., Ge, H.,
+  Sung, Y.-H., Strope, B. and Kurzweil, R. (2018).
+\newblock Learning semantic textual similarity from conversations. \emph{arXiv
+  preprint arXiv:1804.07754}.
+
 \bibitem[{Yzaguirre \emph{et~al.}(2016)Yzaguirre, Smit and
   Warren}]{yzaguirre2016newspaper}
 Yzaguirre, A., Smit, M. and Warren, R. (2016).
@@ -448,11 +499,11 @@ Yzaguirre, A., Smit, M. and Warren, R. (2016).
 \newblock In \emph{IOP Conference Series: Earth and Environmental Science},
 \newblock vol.~34. IOP Publishing, 012043.
 
-\bibitem[{Zhang and Clark(2011)}]{zhang2011syntactic}
-Zhang, Y. and Clark, S. (2011).
-\newblock Syntactic processing using the generalized perceptron and beam
-  search. \emph{Computational linguistics}.
-\newblock 37(1), 105--151.
+\bibitem[{Zhang \emph{et~al.}(2015)Zhang, Xu, Su and Xu}]{zhang2015chinese}
+Zhang, D., Xu, H., Su, Z. and Xu, Y. (2015).
+\newblock Chinese comments sentiment classification based on word2vec and
+  SVMperf. \emph{Expert Systems with Applications}.
+\newblock 42(4), 1857--1863.
 
 \bibitem[{Zhao \emph{et~al.}(2017)Zhao, Wang, Massung, Qin, Liu, Wang and
   Zhai}]{zhao2017constructing}
@@ -468,12 +519,5 @@ Zhao, S., Wang, Q., Massung, S., Qin, B., Liu, T., Wang, B. and Zhai, C.
 Zhen, L. (2014).
 \newblock What's China's 'Nine-Dash Line' and why has it created so much
   tension in the South China Sea? \emph{South China Morning Post}.
-
-\bibitem[{Zhou \emph{et~al.}(2015)Zhou, Chen and He}]{zhou2015unsupervised}
-Zhou, D., Chen, L. and He, Y. (2015).
-\newblock An unsupervised framework of exploring events on twitter: Filtering,
-  extraction and categorization.
-\newblock
-\newblock In \emph{Twenty-Ninth AAAI Conference on Artificial Intelligence}.
 
 \end{thebibliography}

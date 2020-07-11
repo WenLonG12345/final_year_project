@@ -22,20 +22,15 @@ Warning--entry type for "mongoDB2016" isn't style-file defined
 --line 147 of file reference.bib
 Warning--entry type for "rohitbigdata2019" isn't style-file defined
 --line 264 of file reference.bib
-Warning--entry type for "sauravkaushik2016" isn't style-file defined
---line 387 of file reference.bib
-Warning--entry type for "jaewookahnsueyeonsyn2005" isn't style-file defined
---line 413 of file reference.bib
 Warning--entry type for "chinapower2016" isn't style-file defined
---line 479 of file reference.bib
+--line 649 of file reference.bib
 Warning--entry type for "vietnamboat2014" isn't style-file defined
---line 575 of file reference.bib
+--line 745 of file reference.bib
+Warning--empty year in deuniversal; set to ????
+Warning--empty journal in deuniversal
 You can't pop an empty literal stack for entry ding2015deep
 while executing---line 1711 of file utmthesis-authordate.bst
 Warning--empty pages in ding2015deep
-You can't pop an empty literal stack for entry ding2016knowledge
-while executing---line 1711 of file utmthesis-authordate.bst
-Warning--empty pages in ReVerb2011
 You can't pop an empty literal stack for entry fedoryszak2019real
 while executing---line 1711 of file utmthesis-authordate.bst
 Warning--empty journal in gonzales2014spratly
@@ -47,13 +42,26 @@ while executing---line 1711 of file utmthesis-authordate.bst
 You can't pop an empty literal stack for entry hu2017happens
 while executing---line 1711 of file utmthesis-authordate.bst
 Warning--empty pages in hu2017happens
-You can't pop an empty literal stack for entry kaschesky2011opinion
+You can't pop an empty literal stack for entry le2014distributed
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry lilleberg2015support
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry mikolov2013distributed
 while executing---line 1711 of file utmthesis-authordate.bst
 You can't pop an empty literal stack for entry mirza2014extracting
 while executing---line 1711 of file utmthesis-authordate.bst
 You can't pop an empty literal stack for entry ning2016modeling
 while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry pennington2014glove
+while executing---line 1711 of file utmthesis-authordate.bst
 You can't pop an empty literal stack for entry radinsky2012learning
+while executing---line 1711 of file utmthesis-authordate.bst
+Warning--can't use both volume and number fields in riloff1993automatically
+You can't pop an empty literal stack for entry riloff1993automatically
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry ritter2012open
+while executing---line 1711 of file utmthesis-authordate.bst
+You can't pop an empty literal stack for entry sankaranarayanan2009twitterstand
 while executing---line 1711 of file utmthesis-authordate.bst
 You can't pop an empty literal stack for entry tan1999text
 while executing---line 1711 of file utmthesis-authordate.bst
@@ -68,7 +76,4 @@ You can't pop an empty literal stack for entry yzaguirre2016newspaper
 while executing---line 1711 of file utmthesis-authordate.bst
 You can't pop an empty literal stack for entry zhao2017constructing
 while executing---line 1711 of file utmthesis-authordate.bst
-You can't pop an empty literal stack for entry zhou2015unsupervised
-while executing---line 1711 of file utmthesis-authordate.bst
-Warning--empty pages in zhou2015unsupervised
-(There were 18 error messages)
+(There were 22 error messages)

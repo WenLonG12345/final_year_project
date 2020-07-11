@@ -131,19 +131,21 @@ In event prediction based on news articles, there may have some challenges. Firs
 
 There are several researchers research on topic event prediction with different method. Granroth-Wilding (2016) proposed a predictive neural network model that learns embeddings for words describing events, a function to change embeddings into event representation and a function to predict the degree of relationship between two events.However, the model is more focus on chain or events sequence which is good for rich-infomrative events but might not suitable for news articles that have unordered sequence. Preethi (2015) proposed an event prediction model for Tweets using temporal sentiment analysis and causal rules extraction. This model is useful to analyse user's sentiments and predict future events using temporal attribute. This study analyse sentiments of user's opinion and is not suitable for news articles whereby formal news reports seldom express their sentiments within the articles. 
 
-\cite{zhao2017constructing} proposed an abstract event causality networks based on causality attribute. The predictive model is suitable for unstructured data such as news article and learn from previous events to predict the future. Given a South China Sea events stated that "Vietnam started to protest for their sovereignty in South China Sea because of China construct a new military purpose platform on strategically-located Bombay Reef in South China Sea." From this event, causality connector "because of" is identified and cause-event pair is extracted based on the pattern of effect <because> cause. The causality pair is then further simplified and generalise by verb-noun representation as well as WordNet and VerbNet and further take a part in constructing abstract event causality networks. 
+The current research done is more focus on causal event detection and extraction, which related to effective distributed word or sentence representation. \cite{mikolov2013distributed} had proposed a state-of-art framework, Word2Vec for distributed word representation. However, Word2Vec is limited to those words that are morphologically similar where Word2Vec embed every word as an indepenedent vector. 
+
+Thus, this research is aimed to provides a prediction framework that can actually address these problem by using state-of-art sentence representation and sentence similarity. In this research, we train and compare 3 different sentence representation technique (Doc2Vec, InferSent, and BERT) as well as their sentence similarity with the input queries in order to get the most possible predicted output.  
 
 
 \section{Problem Statement}
 South China Sea (SCS) is a conflict zone where events happened from time to time with different severity. This greatly impact or influence the policy that made by government of Malaysia to overcome the negative impacts brought by SCS territorial disputes in term of national security. The problem is to extract valuable information from SCS conflict events and predict the future events that may happen. Besides, online news is unstructured data and extracting correct information from massive online news articles that contain different resources automatically is part of the challenges. Event prediction is biased to measure, and a good predictor is needed to make sure that its prediction is accurate and precise.    
 
 \section{Aim/Purpose of Study}
-This study will address the SCS disputes issues by implementing \cite{zhao2017constructing}'s abstract event causality network and its embedding model. This model learns causality of events and provides simplify event matching which is advantage for event prediction. 
+This study will address the SCS disputes issues by comparing sentence similarity based on different sentence representation technique such as Doc2Vec, InferSent and BERT. These technique helps to predict the most possible event that follows the nature of event causality and provides simplify event matching which is advantage for event prediction.  
 
 \section{Research Question} 
 \begin{enumerate}
 	\item How to obtain useful information from news article that related to South China Sea conflict?
-	\item How to generalise and cluster extracted event pairs and how to relate event pairs with causality?
+	\item Which sentence representation algorithm is suitable to represent causal event?
 	\item How to use the extracted information to train and build a prediction model?
 \end{enumerate}
 
@@ -152,9 +154,9 @@ This study will address the SCS disputes issues by implementing \cite{zhao2017co
 	
 	\item To extract <cause, effect> causality pairs from news articles in South China Sea conflict by using causality connectors
 	
-	\item To extract all important information from causality pairs by using verb-noun representation as well as discover general patterns using WordNet and VerbNet.  
+	\item To compare sentence representation algorithm by comparing sentence similarity between input queries and pre-defined <cause, effect> causality pairs. 
 	
-	\item Train and build an abstract causality network with frequently co-occurring word pairs (FCOPA) and embed the model into a continuous vector space.
+	\item Build a prediction model based on highest sentence similarity score for possible causality output event.  
 \end{enumerate}
 
 \section{Scope} 
@@ -164,7 +166,8 @@ Event prediction is important to have better understanding for future event that
 \item The coverage of this study will be using news articles that extracted related to SCS conflict only. 
 \item The study will focus on SCS conflict news from online news article that having keywords related to SCS. 
 \item The study will only covers the some of the causality connectors such as "because of", "because", "after", "due to", etc.
-\item Prediction model in this study will be based on abstract causality network from \cite{zhao2017constructing}
+\item The study will only covers 3 sentence representation algorithm which are Doc2Vec, InferSent, and BERT. 
+\item Prediction model in this study will be based on sentence similarity for the possible causality output event. 
 \end{enumerate}	
 
 \section{Significant of Study}
@@ -179,7 +182,7 @@ Event prediction is important because it give a better insight and forecast for 
 \chapter{Literature Review}
 
 \section{Introduction}
-This chapter will discuss the literature review of event prediction using causality approach on South China Sea (SCS) conflict. First, the chapter will briefly explain about event prediction and SCS conflict Then,the chapter will discuss text mining which consists of many stages such as text preprocessing, event extraction, event representation, event generalisation and event relation. After that, this chapter will briefly discuss the prediction algorithm and justify the most suitable algorithm for SCS conflict event prediction in this paper. Finally, this chapter will compare existing work that had done in the domain of event prediction. Last but not least, this chapter will discuss  open issues in event prediction that need to be addressed, followed by a short brief summary.  
+This chapter will discuss the literature review of event prediction using causality approach on South China Sea (SCS) conflict. First, the chapter will briefly explain about event prediction and SCS conflict Then,the chapter will discuss text mining which consists of many stages such as text preprocessing, event relation, event detection, event extraction, as well as event extraction. After that, this chapter will briefly discuss the prediction model technique and justify the most suitable algorithm for SCS conflict event prediction in this paper. Finally, this chapter will compare existing work that had done in the domain of event prediction. Last but not least, this chapter will discuss  open issues in event prediction that need to be addressed, followed by a short brief summary.  
 
 
 \section{Event Prediction}
@@ -202,7 +205,6 @@ Event prediction involves in many domains. Research on areas of event prediction
 
 In news articles, there are many events happen everyday. From political issues, to social problems, economic trend and entertainments, newspaper provides public daily updates on these events. Recently, conflict happened on South China Sea (SCS) has becoming popular and continuously escalated. The happening of SCS conflict concerns countries nearby the regions and it must be solved and actions should be taken to prevent happening of any tragedy.     
 
-If there is no such the problem or the conflict in the South China Sea, we no need to carry out the research to find out the way to extract the causality from the news articles and predict the effects. This is because of the stupid countries want to fight for the lands and the sea areas.
 
 \section{South China Sea Conflict}
 South China Sea (SCS) is located strategically within Asia countries such as China, Taiwan, Indonesia, Philippines, Vietnam, and Malaysia. It has the busiest shipping lane as one-third of world's shipping passes through SCS and almost 3.37 trillion global trade happened within SCS in year 2016  \citep{chinapower2016}. Due to these huge market profit, many countries started to claim that SCS is their own territory and China even illustrated a "nine-dash line" which is a huge part from SCS and claim that region within "nine-dash line" is China's territory \citep{liuzhen2014}. These started the dispute between countries. For every dispute, public are able to know the flow of events through newspaper.
@@ -223,7 +225,6 @@ Text mining, also known as knowledge discovery from textual databases and relate
 
 However, there are open problems in text mining that need be addressed. For examples, variety of intermediate form that causes complexity and uncertainty in text mining, multilingual text refining, domain knowledge integration \citep{lima2009domain}, and customized autonomous mining \citep{afzal2010rule}.
 
-\pagebreak
 \subsection{Types of Data}
 With text mining, useful information can be extracted for further processing. However, the volume of data is dramatically increasing nowadays, associated with high flow of data and high variety of information. For example, inside a single webpage, different type of data such as images, audio, textual data, comments, etc. can be obtained and categorised. Two major categories of data are structured data and unstructured data. Both of the categories will be further discussed in the following sections. 
 
@@ -263,30 +264,35 @@ The main concept of causality is that one or more things/events as causes can ca
 	After identify the potential cause-effect pairs, it is difficult to execute human-annotation on these causality pairs as the amount of data is getting enormous. Hence, autonomous annotation is proposed. 	In the work of \cite{radinsky2012learning}, Radinsky use causality rule to predict the future event as abstraction tree (AT) had been build earlier and using causality rules, a causality graph is built to explain the predicted event clearer.
 	
 	Moreover, in order to get an accurate categorised result based on causality pair, causality rules is set in every text extraction. \cite{zhao2017constructing} construct a set of causality rules that follows the template of <\textbf{Pattern,Constraint,Priority}> where Pattern indicates the trend of events between causality pairs, Constraint indicates the limitation on sentence which the pattern can be applied, Priority indicates the priority of causality pairs to be execute first or second. After extracting causality pairs from news article as well as generalise for more general purpose, an abstract causality network is built. 
-	
-
-	
-	\item \textbf{Causality Network}
-	
-	Causality network is a path diagram that visualise the causal relationship between events and enable researchers to estimate effects sizes and costs \citep{dahlhaus2003causality}. Generally, Granger causality is widely used in causality network for event prediction model as it is a statistical concept of causality. \citep{Seth2007}. In Granger causality, a true cause-and-effect relationship is obtained from particular variable that comes before another and it used bottom-up approach to predict the outcome. 
-	In \cite{zhao2017constructing}, causality network is separated into 2 parts, abstract causality network and specific causality network in which mentioned in Figure 2.4. In Figure 2.4, an abstract causality network is built on top on specific one, where the node of abstract causality network are frequently co-occuring word pairs, which are general enough for representing event trend. 
-	 
-	\begin{figure}[H]
-		\centering
-		\fbox{\includegraphics[width=0.8\textwidth]{./diagram/causality_network}}
-		\caption{Example of Causality Network, adopted from \cite{zhao2017constructing}}
-	\end{figure} 
-	\vspace{-1cm}
+		
 \end{enumerate}
 
 \subsection{Event Detection}
-Event detection is a techniques to discover occurrences of events by analysing text stream in the sources. Generally, event detection can be broadly categorised as either feature-pivot (FP) or document-pivot(DP) \citep{fedoryszak2019real}. Based on \cite{chen2019bibliometric}, feature-pivot is the method that detecting abnormal patterns in appearance of features such as words. When an event happens, the frequency of a feature will be abnormal comparing to its unusual behaviour which indicating a potential new event. Meanwhile, document-pivot is using documents as items to clustered them by using similarity measure. 
+Event detection is a techniques to discover occurrences of events by analysing text stream in the sources. Generally, event detection can be broadly categorised as either Feature-pivot (FP) or Document-pivot (DP) \citep{fedoryszak2019real}. Based on \cite{chen2019bibliometric}, feature-pivot is the method that detecting abnormal patterns in appearance of features such as words. When an event happens, the frequency of a feature will be abnormal comparing to its unusual behaviour which indicating a potential new event. Meanwhile, document-pivot is using documents as items to clustered them by using similarity measure. 
 
+The main idea of feature-pivot event detection is to represent the events as number of features that showing an abnormality in appearance counts.It is illustrated in Figure 2.4. These method rely on large amounts of dataset as the unusual frequency will be taken as important features.This technique is widely used in many domains especially in news documents. For example, \cite{mele2019event} use this technique to first extracts event features in tweets as well as clusters the documents according to the features. By finding a frequent pattern based on an infinite-state automation, it helps to model the changes in word frequency, state transitions as well as the events. This technique will also used in this project as Causality Mention (CM). By referring causality connector such as "because', "because of", "lead to" and "after" from \cite{zhao2017constructing}, the sentences that tagged with these connectors are selected and initially identified as event. 
 
+\begin{figure}[H]
+	\centering
+	\fbox{\includegraphics[width=0.9\linewidth]{diagram/feature_pivot}}
+	\caption{Feature-pivot paradigm for event detection, adopted from \cite{schinas2018event}}
+	\label{fig:featurepivot}
+\end{figure}
+\vspace{-1.5cm}
+
+Document-pivot is a method where cluster documents based on their semantic similarity and group them into events. It is illustrated in Figure 2.5 This method is a bit different from traditional Bag-of-Words approach as it helps to identify event-related data that mixed with noisy data apart from clean data. TwitterStand \citep{sankaranarayanan2009twitterstand} is a news processing system using document-pivot approach to capture tweets corresponding to breaking news. However, this approach as low performance due to fragmentation of news topics, noisy content and the limited power of Bag-of-Words in short texts as tweets.  
+
+\begin{figure}[H]
+	\centering
+	\fbox{\includegraphics[width=0.9\linewidth]{diagram/document_pivot}}
+	\caption{Document-pivot event detection, adopted from \cite{schinas2018event}}
+	\label{fig:documentpivot}
+\end{figure}
+\vspace{-1.5cm}
 
 
 \subsection{Event Extraction}
-Event extraction is one of the common application of text mining as it obtains specific knowledge concerning incidents referred to texts \citep{hogenboom2011overview}.  Figure 2.6 shows the general procedure of event extraction. Event extraction uses data that are preprocessed using the methods mentioned in the previous chapter, and further represent by general causality pairs. Moreover, event relation is determined to have a better insight between events.  
+Event extraction is one of the common application of text mining as it obtains specific knowledge concerning incidents referred to texts \citep{hogenboom2011overview}.  Figure 2.6 shows the general procedure of event extraction. Event extraction uses data that are preprocessed using the methods mentioned in the previous chapter, and further represent by general causality pairs. 
 
 \begin{figure}[H]
 	\centering
@@ -296,180 +302,215 @@ Event extraction is one of the common application of text mining as it obtains s
 \end{figure}
 \vspace{-1.5cm}
 
-Based on report by \cite{hogenboom2011overview},there are three main approaches to event extraction, which are data-driven, knowledge-drive and hybrid. \cite{hogenboom2016survey} performed an investigation based on these three approach by surveying their usage in different domain. Three of the approaches will be further discussed in the subsections below. 
+Based on \cite{xiang2019survey}, event extraction is defined as one of the most important and active research domain in Naturral Language Processing. The author break down this big domain with several representative methods such as Pattern-matching, Machine Learning and also Annotation based on Cause and Effect. The following subsection will further discuss the concept and techniques' solution approaches. 
 
-\subsubsection{Data-Driven Event Extraction}
+\subsubsection{Pattern-Matching}
+Pattern-matching is a traditional event extraction method and require a specific template or structure to extract important information from the corpus. In order to obtain important insight from unstructured text, linguistic pattern is used to automatically build up a event patterns within the corpus. Figure 2.7 shows 13 linguistic patterns and example that applied to extract important information from corpus. For example, if given the a sentence, "victim was murdered". Based on the first linguistic pattern, "victim" will be tagged as <subject> while "murdered" will be tagged as verb. 
 
-Data-driven approach is mainly used for natural language processing (NLP) application and focus on quantitative methods. It focuses on converting statistics data into knowledge. Data-drive approach is not restricted to fundamental statistical reasoning but maximize the quantitative measure for automated extraction. One of the weakness in data-driven approach is that it doesn't consider about meaning and sentiments and require a large amount of data to get statistically significant results.
+Figure 2.8 illustrate the process of event extraction based on pattern-matching. By following the linguistic pattern template, the sentence "They took 2-year-old Gilberto Molasco, son of Patricio Rodrigues" will be extracted with "took" as the trigger of the whole sentence and "Gilberto Molasco" as the subject or victim. Pattern-matching is domain-specific and works well in specific dataset. However, it does not provide accurate extraction in unstructured data such as news article and post in social media. 
 
-\subsubsection{Knowledge-Driven Event Extraction}
+\begin{figure}[H]
+	\centering
+	\fbox{\includegraphics[width=0.8\linewidth]{diagram/linguisticPattern}}
+	\caption{Example of Linguistic pattern and its pattern, adopted from \cite{riloff1993automatically}}
+	\label{fig:linguisticpattern}
+\end{figure}
+\vspace{-1.5cm}
 
-Compared to data-driven, knowledge-driven is more focus on patterns and exploring human-knowledge. It considers sentiments and consumes less training data compared to data-driven, and also able to define powerful expression by using semantic elements for an easily interpretable and traceable result. Most common pattern extracted are lexicon-syntactic pattern and lexicon-semantic pattern. Both of the patterns are based on lexicon normalisation and must be deployed on preprocessed data. However, knowledge-driven requires more advanced expert knowledge and more difficult to extract due to the challenge of language ambiguity and pronoun resolution that might occur in lexicon.  
+\begin{figure}[H]
+	\centering
+	\fbox{\includegraphics[width=1\linewidth]{diagram/patternMatching}}
+	\caption{Example of event pattern construction and event extraction based on pattern matching adopted from \cite{xiang2019survey}}
+	\label{fig:patternmatching}
+\end{figure}
+\vspace{-1.5cm}
 
-\subsubsection{Hybrid Event Extraction}
 
-In order to balance both advantages and disadvantages between data-driven and knowledge-driven extraction, hybrid approach is used to overcome the lack of expert knowledge in pattern-based problem, by applying statistical methods. For advanced extraction techniques, hybrid approach is prioritised in order to optimise the difficulties level in knowledge-drive approach and huge amount of data in data-driven approach. 
+\subsubsection{Machine Learning}
+The important difference between pattern-matching based and machine learning based event extraction is that machine learning based event extraction rely on algorithm such as Support vector Machine (SVM), K-means clustering, etc. for the extraction. Apart of defining lingustic pattern, machine learning based event extraction learns classifier from training data based on feature engineering work. Feature engineering is a technique about creating new input features based on the existing one. In natural language processing, most of the comoon features can be divided as 3 types, \textit{lexical}, \textit{syntactic} and \textit{semantic} features. 
 
-Event extraction is still under active research and researcher tend to produce a best solution for all the problems and challenge obtained in event extraction. Table 2.1 shows the comparison of recent research on event extraction. By comparing some research, it can be concluded that if the model has large corpus, data-driven approach will be used. Meanwhile, if the model require rule-based extraction, knowledge-driven approach is needed. In this study, hybrid approach is used because there are large corpus on news events and require some simple rules to extract events precisely.  
+Lexical feature usually includes word lowercase and stopword removal, text lemmatization, Part-of-Speech (POS) tagging while syntactic features are extracted based on dependency parsing. The general idea of dependency parsing is to create edges between words in a sentences that denoting different types of relations. For example, Universal Dependencies \citep{deuniversal} documented standard dependencies for cross-linguistic typology such as nsubj, nmod, obj, etc. Figure 2.9 shows the example of dependency parsing on simple sentence, "Ivan is the best dancer". From this sentence, "dancer" is the root word and "Ivan" is the nominal subject (nsubj) to "dancer". Nominal subject is a noun phrase which is the syntactic subject of a clause. Besides, copula (cop) is the relation between verb and verb, determiner (det) is the relation between head of noun phrase and determiner and adjectival modifier (amod) is a adjectival phrase that represent the meaning of noun phrase. The representation helps to describe the grammatical relationship in a sentence so that researcher can understand more on the sentence. Lastly, semantic feature is normally includes obtaining synonyms of words as well as argument identification.
 
+Figure 2.10 illustrate a overview of event extraction based on machine learning approach. From the figure, each of the features are embed into vector which is also another important concept that will be discussed on the following subsection. 
+
+\begin{figure}[H]
+	\centering
+	\fbox{\includegraphics[width=0.8\linewidth]{diagram/dependencyParsing}}
+	\caption{Example of Dependency Parsing Visualisation}
+	\label{fig:dependencyparsing}
+\end{figure}
+\vspace{-1.5cm}
+
+\begin{figure}[H]
+	\centering
+	\fbox{\includegraphics[width=1\linewidth]{diagram/extraction_machineLearning}}
+	\caption{Example of event extraction based on machine learning}
+	\label{fig:extractionmachinelearning}
+\end{figure}
+\vspace{-1.5cm}
+
+
+\subsubsection{Cause-Effect Annotation}
+Annotation is an important concept in obtaining useful information in Natural Language Processing (NLP). By annotating raw text data, all the text become meaningful as tag with specific characteristics. For example, a Named Entity Recognition (NER) annotation can simply help researchers to eliminate most of the noise in the raw data by only obtaining Person, Location, Time, etc. The most widely used annotation tools for NLP is Brat and WebAnno. Figure 2.11 shows the screenshot of Brat annotation tools. By using Brat, cause and effect can be easily annotated followed by their relationship (cause-effect). 
+
+One of the well-known test data for cause-effect annotation is SemEval-2010 Task 8 \cite{hendrickx-etal-2010-semeval}. It is a standard test data for multi-way classification of semantic relations between pairs of nominals. In this dataset, there are many semantic relations annotated such as Cause-Effect (CE), Instrument-Agency (IA), Product-Producer (PP), etc. In this research, CE will be focused and the extracted cause and effect will be taken as test data for model validation. 
+
+\begin{figure}[H]
+	\centering
+	\fbox{\includegraphics[width=0.7\linewidth]{diagram/bratAnnotation}}
+	\caption{Screenshot of Brat Annotation Tool}
+	\label{fig:bratannotation}
+\end{figure}
+\vspace{-1.5cm}
+ 
+Table 2.1 shows the recent research for event extraction as well as their approach and limitation. Most of the research is based on machine learning approach since it provides a feed forward neural network for continuous word or sentence representation. It might be helpful in dealing with large raw text corpus and highly unstructured data. 
+ 
 \begin{table}[H]
 \fontsize{11}{12}\selectfont
 \caption{Comparison of Recent Research on Event Extraction}
-\renewcommand{\arraystretch}{1.2}
+\renewcommand{\arraystretch}{1}
 \begin{tabular}{|p{2cm} |p{4cm} |p{2cm}|p{5cm}|}
 	\hline 
 	Author, year & Domain & Approach & Limitation \\ 
 	\hline 
-	\citep{wu2017event}&Event Timeline Extraction on News Corpus &Data-driven  & Require large text corpus \\ 
+	\citep{valenzuela2015domain}&Domain-independent Rule-based Framework for Event Extraction  & Pattern-Matching & Needs to design multiple rules for different domain  \\ 
 	\hline 
-	\citep{valenzuela2015domain}&Domain-independent Rule-based Framework for Event Extraction  & Knowledge-driven & Needs to design multiple rules for different domain  \\ 
+	\citep{ritter2012open}&Open domain event extraction from twitter  & Machine Learning & Segmentation error on unknown words on Tweet  \\ 
+	\hline
+	\citep{wu2017event}&Event Timeline Extraction on News Corpus & Machine Learning  & Require large text corpus \\ 
 	\hline 
-	\citep{rospocher2016building}& Building event-centric knowledge graphs from news & Hybrid & Expert knowledge required to build knowledge graph \\ 
+	\citep{vossen2016newsreader}&Using knowledge resources in cross-lingual reading machine from news  & Machine Learning & Require knowledge acquisition and NLP improvement on a massive scale \\ 
 	\hline 
-	\citep{vossen2016newsreader}&Using knowledge resources in cross-lingual reading machine from news  & Hybrid & Require knowledge acquisition and NLP improvement on a massive scale \\ 
+	\citep{rospocher2016building}& Building event-centric knowledge graphs from news & Annotation & Expert knowledge required to build knowledge graph \\ 
 	\hline 
+	
 \end{tabular} 
 \end{table}
 \vspace{-1cm}
 
 \subsection{Event Representation}
-After extracting useful information from event extraction techniques, these data is match with certain meaning to represent certain knowledge.  In work of \cite{ding2015deep}, Stanford Open IE, a Java-based information extraction application is used. In Open IE, it first use ReVerb \citep{ReVerb2011} ,a autonomous program that identifies and extract binary relationship from English sentences with tuples of event, then use ZPar \citep{zhang2011syntactic} to parse the sentence with subject, object and predicate. The event is represented as tuple \textit{E = (O\textsubscript{1},P,O\textsubscript{2},T)}, where O\textsubscript{1} is the actor and O\textsubscript{2} is object, P is the action and T is the timestamps of the event. In this project, works of \cite{zhao2017constructing} will be referred as it represents event causality will a more simpler and straightforward method. By using regular expression mentioned earlier, event is represented as \textit{<cause, effect>} pairs 
+Event from news article usually construct based on sentences or phrases. However, unstructured raw text is highly ambiguous and without proper rules or structure, machine wouldn't know any meaning from these text. \citep{mikolov2013distributed} proposed a method called distributed representation of words in vector space or word embedding that actually helps natural language processing to achieve better performance in term of linguistic understanding. These word embedding approach is useful in term of capturing semantic and syntactic patterns between words. Below are some example of state-of-art word embedding technique: 
 
-Event representation using tuples is widely used with different domains in different paper. Table 2.2 shows some research that are using tuple approach in different domain such as social media and economic. By the best of our knowledge, almost all the event representation are using tuple approach but with different attributes arrangement and consideration. By using tuples, it provides clearer picture of the event and easier to categorise each element in tuple with their corresponding category. 
-
-\begin{table}[H]
-	\fontsize{11}{12}\selectfont
-	\caption{Research done in Event Representation}
-	\renewcommand{\arraystretch}{1.2}
-	\begin{tabular}{|p{3cm} |p{4cm} |p{7cm}|}
-		\hline 
-		Author, year & Domain & Representation \\ 
-		\hline 
-		\citep{anantharam2015extracting}&Extracting city traffic events from social streams & <e\textsubscript{type},e\textsubscript{loc},e\textsubscript{st},e\textsubscript{et},e\textsubscript{impact}> where represent type of event, location, smallest timestamp, largest timestamp and impact of event respectively \\ 
-		\hline 
-		\citep{zhou2015unsupervised}&Unsupervised framework of exploring events on twitter  & <\textit{y,d,l,k}> where represent non-location named entities, date, location and event-related keywords respectively \\ 
-		\hline 
-		\citep{ding2016knowledge}& Knowledge-driven event embedding for stock prediction & \textit{E = (A,P,O)}, where P is the action or predicate, A is the actor or subject and O is the object on which action is taken \\ 
-		\hline
-		\citep{radinsky2012learning} & Event prediction based on causality & \textit{e = <P,O\textsubscript{1},....,O\textsubscript{4},t>}, where P is the events' objects, O\textsubscript{1} to O\textsubscript{4} is the actor,object,instrument,location and t is timestamp \\
-		\hline
-	\end{tabular} 
-\end{table}
-\vspace{-1.5cm}
-
-\subsection{Event Generalisation}
-Generalisation on causality pattern is very useful in discovering high-level causality rules behind specific causality pairs \citep{zhao2017constructing}. It is an important step after event extracton and representation since the model structure is unclear and may have duplicate and similar event pairs that increase the difficulties in text processing. For example, an event "\textit{a massive 8.9-magnitude earthquake hit north-east Japan on Friday}$\,\to\,$\textit{a large amount of houses collapsed}" can be generalised into \textit{earthquake hit}$\,\to\,$\textit{house collapse}. The generalisation method helps to eliminate unnecessary words to ease the text processing. 
-
-Besides, \cite{radinsky2012learning} utilised the concept of generalisation by finding the similarity between two events e\textsubscript{i} and e\textsubscript{j} by applying a function of distances between objects and actions: 
-\begin{equation}\label{2.1}
-SIM(e_{i},e_{j}) = f(dist_{Gen}^{G_{p}}(P^{i},P^{j}),dist_{Gen}^{G_{o}}(O_{1}^{i},O_{1}^{j}),....,dist_{Gen}^{G_{o}}(O_{4}^{i},O_{4}^{j}))
-\end{equation} 
-where $dist_{Gen}^{G_{p}}$ is the distance function in graph and f is an aggregation function. By finding the similarity between two events, generalisation path can be obtained.  
-
-
-\subsubsection{Generalisation Path}
-In semantic event network, there are edges and nodes where the nodes are the objects and edges connect all the object together.  Generalisation path provides a simplest and most general path that eliminate language ambiguity in semantic event network. For example, "Earthquake in Australia" and "Earthquake in Japan" are both natural disaster happen in country. By producing generalisation path, both events can be generalised into the same type of event which related to earthquake.
-
-However, there are problems exists such as over-generalisation and under-generalisation where events might be too simplified or still having chance to be simplified. These problem need to be addressed by limiting the power of generalisation using appropriate algorithm or producing a shortest pathway within the semantic network. 
-
-Minimal generalisation path can induced from generalisation path where minimal generalisation path is the shortest generalisation path among the others if there exist of multiple generalisation path. This helps to measure the semantic relatedness on the events. Figure 2.10 shows the calculating procedure of minimal generalisation path. First the minimal generalisation path eliminate those are expandable because expandable path is not the shortest path. Then, it compare the remaining path based on path-based semantic distance within the semantic network. 
- 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{diagram/minGeneralisation}
-	\caption{Procedure of calculating minimal generalisation path \citep{radinsky2012learning}}
-	\label{fig:mingeneralisation}
-\end{figure}
-\vspace{-1.5cm}
-
-\subsubsection{Semantic Network}
-Semantic network is a graphical knowledge representation in pattern of interconnected nodes. It stores knowledge in the form of semantic triple, where are subject-predicate-object. For example, \cite{kaschesky2011opinion} had developed SenticNet that collect sentiment from users whenever they express positive or negative feelings on writing comments or reviews online. In this study, World ontology will be used as reference semantic network. It models places and political entities of the planet Earth and linked data from Wikipedia, ConceptNet, WordNet, Yago and OpenCyc. World Ontology is used in generalisation as it generalise similar object. For example, Paris and London will be categorised under 'Capital' and connected to the node of 'Europe' in World ontology. By referring semantic network, knowledge obtained from the model is realistic.  
-
-\subsubsection{Clustering Algorithm}
-Clustering is a process to divide huge volume of data into number of groups in such that each group have the most similarity than those in the other group. \citep{sauravkaushik2016}. Clustering is important for identifying the characteristics of unstructured data and tag them with corresponding category. There are commonly four type of clustering, which are hierarchical, distance-based partitioned and organizing map algorithm. \citep{suyal2014text} 
+\subsubsection{Word Embedding}
+In word embedding, the most commonly used technique is Latent Semantic Analysis (LSA), Word2Vec and Glohal Vector (GloVe). 
 
 \begin{enumerate}
-\item \textbf{Hierarchical Clustering}
+	\item \textbf{Latent Semantic Analysis (LSA)}
+	
+	LSA is a statistical technique by using bag-of-words where it convert every words in document into vector by counting the number of occurrences of each words in the documents. Then, a term-document matrix (TDM) is constructed for the document vectors. The core concept of LSA is term frequency where it take weighting scheme (boolean of O-term not used and 1-term is used) into consideration. Figure 2.12 shows an illustration of TDM and a singular value decomposition is used to get the most closest vector embedding in the subspace. 
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=0.7\linewidth]{diagram/term_document_matrix}}
+		\caption{Term-document Matrix}
+		\label{fig:termdocumentmatrix}
+	\end{figure}
+	
+	\item \textbf{Word2Vec}
+	
+	Word2Vec is first proposed by \cite{mikolov2013distributed} as a solution for neural network based training of word embedding. Until now, Word2Vec is becoming the state-of-art word embedding algorithm as many of the research extends from this concept such as \cite{zhang2015chinese}, \cite{lilleberg2015support}, etc. 
+	
+	There are 2 different approaches in Word2Vec, Continuous Bag-of-Words (CBOW) and Skip-gram model. Figure 2.13 shows illustration of CBOW and Skip-gram in Word2Vec. CBOW is trained and learning to predict the word by context as well as maximize the probability of the target word by finding the context. For example, given a context "yesterday was a really [...] day". CBOW model will be about to predict the possible target word as "beautiful" or "nice". On the other hand, skip-gram model is a reverted version of CBOW as it is used to predict the context. Given a word "beautiful", there are higher possibilities that "yesterday was really [...] day" will be selected as the context.
+	
+	The most common downstream application that applied Word2Vec algorithm is smartphone keyboard. Word2Vec helps to implement next-word prediction feature to ease smartphone user during their text typing. Besides, Word2Vec also helps in getting valuable information from customer reviews. Business can use this technique to analyze survey responses and perform business analytic on these data.  
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=0.7\linewidth]{diagram/word2vec}}
+		\caption{Word2Vec training model, adopted from \cite{mikolov2013efficient}}
+		\label{fig:word2vec}
+	\end{figure}
+	
+	
+	\item \textbf{Global Vector (GloVe)}
+	
+	GloVe stands for Global Vector for Word Representation. It was proposed by  \cite{pennington2014glove} and soon become one of the state-of-art word embedding model due to its faster training speed by using non-zero matrix entries. GloVe is training on word co-occurrence matrix and its probability and ratio between target words and context words from 6 billion token corpus. Besides, GloVe provides a pre-trained word vectors for different domains such as Wikipedia, Common Crawl and also Twitter. All of the pre-trained model will be trained in different vector dimension to fix the usage of researchers. In this research, GloVe pre-trained word vectors will be one of the reliable resource in loading word vectors since training word vector from scratch is time-consuming and relatively expansive in computational resource. 
+	
+\end{enumerate} 
 
-Hierarchical clustering uses the concept of successively merging each data into predefined cluster based on their similarity. It is represented by nodes and connectors and a sample of hierarchical cluster is illustrated in Figure 2.11. There are two types of hierarchical clustering, agglomerative and divisive. Agglomerative is a bottom-up approach which the algorithm starts with a single objects as separate category and repeatedly merge with another similar category until meeting stopping condition. Divisive is a top-down approach in which the algorithm start with one cluster and splitting recursively into branches.  
-\vspace{-1cm}
-\begin{figure}[H]
-\centering
-\fbox{\includegraphics[width=90mm,scale=0.5]{./diagram/cluster1}}
-\caption{Hierarchical cluster \citep{suyal2014text}}
-\end{figure}
-\vspace{-1cm}
-From Figure 2.11, for agglomerative (bottom-up) approach, unweighted pair group with arithmetic mean (UPGMA) is used to calculate the mean distance of elements. Given 2 cluster A and B, the mean distance in UPGMA is measured using 
-\begin{equation}\label{2.2}
- \frac{1}{|A| . |B|} \sum_{x\in A}^{}\sum_{y\in B}^{}d(x,y)
-\end{equation}
-where $d(x,y)$ is the updated mean distance between two elements. After that, each $d(x,y)$ is stored into matrix to find the smallest value of D and merge both elements using the smallest value of D into single cluster. 
+However, word embedding seems not sufficient when it comes to phrase or sentence level. For phrase or sentence level embedding, most of the approach will be simply averaging a sentence's word vector/ Bag-of-words approach. This brings to several constraint in word embedding such as semantic similarity between sentences. word embedding only consider to represent the meaning of 1 word into vector and when comes to phrase and sentence, it cannot represent accurately the meaning of phrase or sentence. To address this problem, sentence embedding technique is used. The following subsection will discuss several sentence embedding technique such as Doc2Vec, InferSent and BERT.    
 
-The advantages of hierarchical clustering is simplicity, flexibility and use similarity as measurements while its disadvantages is that stopping condition is hard to obtain. In the study, hierarchical clustering will be used because abstraction tree (AT) is produced with adoption of causality graph. 
+\subsubsection{Sentence Embedding}
 
-\item \textbf{Distance-based Partitioned Clustering}
+\begin{enumerate}
+	\item \textbf{Doc2Vec}
+	
+	Doc2Vec is proposed by \citep{le2014distributed}. It is also known as Paragraph Vector as the algorithm added a Paragraph ID on its training. Based on Word2Vec approach, Doc2Vec follows the concept of CBOW and skip-gram, additionally added another vector (Paragraph ID). There are also 2 method that similar to CBOW and skip-gram in Word2Vec which are PV-DM (Paragraph Vector - Distributed Memory) and PV-DBOW (Paragraph Vector - Bag-of-Words). Figure 2.14 shows the illustration of PV-DM and PV-DBOW model. PV-DM predict the missing target word in the context while PV-DBOW predict all the context from the target word. 
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=0.8\linewidth]{diagram/doc2vec}}
+		\caption{PV-DM and PV-DBOW model in Doc2Vec \citep{le2014distributed}}
+		\label{fig:doc2vec}
+	\end{figure}
 
+	Doc2Vec is a unsupervised learning algorithm that learns vector representation for variable-length pieces of texts. Doc2Vec had achieved good performance compared with other baseline sentence vector embedding. From Figure 2.15, Doc2Vec achieved lower error rate of 3.82\% compared to other baseline method. Hence, Doc2Vec is one of the sentence embedding technique will be used in this research.                             
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\linewidth]{diagram/doc2vec_performance}
+		\caption{Performance of Paragraph Vector (Doc2Vec) and other baseline on information retrieval task \citep{le2014distributed}}
+		\label{fig:doc2vecperformance}
+	\end{figure}
+	
+		
+	\item \textbf{InferSent}
+	
+	InferSent is a one of the state-of-art sentence embeddings method that provides semantic sentence representation. Facebook researcher had proposed InterSent in this paper \cite{conneau2017supervised}. Figure 2.16 shows the simplified illustration of how InferSent works. InferSent first embed the sentence using sentence encoder. There are several technique in the sentence encoder and one of the most effective technique is Bi-directional LSTM network with max or mean pooling. Each vector is concatenate between forward LSTM and a backward LSTM that able to read sentence in opposite direction. Then, max or mean pooling is used in these concatenated vector to form fixed-length vector.  
+	
+	
+	Natural Language Inference (NLI) or textual entailments is a method of finding directional relationship between text fragment. InferSent make use of Stanford Natural Language Inference (SNLI) dataset and manually labelled with 3 categories (entailment, contradiction and neural), then create NLI classifier. NLI classifier is then used to extract the relations between text and hypothesis. 
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=0.8\linewidth]{diagram/infersent}}
+		\caption{Simplified Illustration of InterSent}
+		\label{fig:infersent}
+	\end{figure}
 
-This type of clustering make use of distance measurements to classify homogeneous data. Depart from hierarchical clustering, the problem of local minima that caused by branches of hierarchical cluster can be eliminated. K-mean clustering is one of the example that used Euclidean distance to calculate the nearest mean between two clusters. Figure 2.12 illustrated sample of K-mean clustering algorithm that differentiate different cluster according to their similarity and plot onto the graph. K-mean cluster different category of objects by the general formula of 
-\begin{equation}\label{2.3}
-	J = \sum_{j=1}^k\sum_{i=1}^n || x_i^{(j)} - c_j ||^2
-\end{equation}
-where J is the K-mean function, $\sum_{j=1}^k$ is number of cluster, $sum_{i=1}^n$ is number of case and $|| x_i^{(j)} - c_j ||^2$ is the distance function involving centroid for cluster j and case i.
-\begin{figure}[H]
-\centering
-\fbox{\includegraphics[width=70mm,scale=0.5]{./diagram/cluster3}}
-\caption{K-mean clustering}
-\end{figure}
-\vspace{-1cm}
-\item \textbf{Organizing Map Algorithm}
-
-Self-organising maps (SOM) algorithm is one of the organizing map algorithm that produce low-dimensional regular grid and can be effectively utilized to visualize and observe characteristics of data. \citep{vesanto2000clustering}. SOM use concept of neural network with neuron and neuron weights are adjusted based on their features towards "winning" neurons. Figure 2.13 shows a visualisation of SOM. Self-organizing map describes a mapping from a higher-dimensional input space to a lower-dimensional map space. Once trained, the map can classify a vector from the input space by finding the node with the closest (smallest distance metric) weight vector to the input space vector. SOM comes with two major advantages, which are reducing data dimensions as SOM requires no target vector and without any external supervision and easily to classify based on data similarity. \citep{jaewookahnsueyeonsyn2005}
-
-\begin{figure}[H]
-\centering
-\fbox{\includegraphics[width=100mm,scale=0.5]{./diagram/cluster2}}
-\caption{Self-Organising Maps}
-\end{figure} 
-\vspace{-1cm}
+	Due to InferSent's semantic representation, this research will be using InferSent as one of the sentence representation method to be compared with both Doc2Vec and BERT. 
+	 
+	
+	\item \textbf{BERT} 
+	
+	BERT stands for Bidirection Encoder Representation from Transformers is a state-of-art sentence embedding technique proposed by Google AI language. \citep{devlin2018bert}. BERT make use of Transformer, an attention mechanism that learns contextual relation between words in a text. 
+	
+	Figure 2.17 shows the BERT input representation. There are 2 important element in BERT, Masked LM (MLM) and Next Sentence Prediction (NSP). MLM allows bidirectional training where the model uses the context words surrounding a [MASK] token and try to predict what the [MASK] word should be. Besides, in NSP, [CLS] token is inserted at the beginning of first sentence while [SEP] token is insert at the end of each sentence. Combining with [MASK] token, it forms a sequence and the entire sequence will be embeded through Transformer model.
+	
+	Due to the bi-directional representation behaviour and transformer encoder in BERT, BERT have a highest accuracy in Semantic Text Similarity (STS) score. It obtain the highest (86.5\%) similarity score compared to other sentence embedding algorithm such as Pre-OpenAI SOTA (81.0\%), BiLSTM+ELmo+Attn (73.3\%) and OpenAI GPT (80.0\%) \citep{devlin2018bert}. Hence, in this research, BERT will be used as one of the sentence embedding method for measuring text semantic similarity
+	
+	\begin{figure}[H]
+		\centering
+		\fbox{\includegraphics[width=0.9\linewidth]{diagram/bert}}
+		\caption{BERT input representation \citep{devlin2018bert}}
+		\label{fig:bert}
+	\end{figure}
+	
+	
+	
 \end{enumerate}
 
 
-
-
-\section{Prediction Algorithm}
-Prediction algorithm is an algorithm that modelling prediction and provides a guideline throughout the process of building up a predictive model. After obtaining extract keyword from textual data and clustering them based on clustering algorithm and relation extraction, the data is now said to be clean and sanitised. These clean data is then involve in prediction algorithm to build up a prediction model. 
+\section{Prediction Model Technique}
+Prediction model technique is an algorithm that modelling prediction and provides a guideline throughout the process of building up a predictive model. After obtaining extract keyword from textual data and clustering them based on clustering algorithm and relation extraction, the data is now said to be clean and sanitised. These clean data is then involve in prediction algorithm to build up a prediction model.
+ 
 \subsection{Sequential Prediction Algorithm}
 Sequential prediction is a fast and simple pattern matching algorithm whereby comparing the past data or experience on a linear running timeline. There are many examples for sequential prediction algorithm such as medical condition that occur over time and patient conditions is getting either better or worse based on previous event. Besides, suggestion system that used in music application such as Spotify also involve in sequential prediction. 
 
 \subsection{Neural Network Prediction Algorithm}
-The biggest advantages of applying neural network in event prediction is the high tolerance and acceptance ability of noisy data and high accuracy. Despite of its complexity and long training time, many researches are more towards to neural network.\citep{granroth2016happens,hu2017happens,asencio2017medium}Neural network use the concept of brain metaphor for information processing and is suitable to discover previously unknown, valid patterns and relationship in large data sets. \citep{gaur2012neural}
+The biggest advantages of applying neural network in event prediction is the high tolerance and acceptance ability of noisy data and high accuracy. Despite of its complexity and long training time, many researches are more towards to neural network.\citep{granroth2016happens,hu2017happens,asencio2017medium} Neural network use the concept of brain metaphor for information processing and is suitable to discover previously unknown, valid patterns and relationship in large data sets. \citep{gaur2012neural}
 
-\subsection{Decision Tree (Pundit) Algorithm}
-Pundit algorithm is used in \cite{radinsky2014pundit} to learn and predict causality. It is one part of decision tree algorithm. Figure 2.15 shows the structure of Pundit algorithm and it started from extracting historical news article into causality pairs. Then, it generalises the pairs using causality prediction rules and create an abstraction tree for prediction. When a new event come in from world ontology , the events will compare the bottom node in the abstraction tree with similarity and after rounds of comparing, an effect event is produced and take as predicted event. Due to the highly flexible and fix with causality from news article, this study will focus on using Pundit algorithm to predict the future events. 
+\subsection{Vector Similarity}
+Vector similarity is one of the important measure for word vector or sentence vector. Example of technique measuring vector similarity are Cosine Similarity, Euclidean distance, Jaccard distance and word mover's distance. Among these techniques, Cosine similarity is being widely used in applied in NLP domain. \citep{torabi-asr-etal-2018-querying, mikolov2013distributed, bekkali2019effective}. Equation 2.1 shows the formula of cosine similarity.
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=1\textwidth]{./diagram/pundit}
-\caption{Structure of Pundit Algorithm \citep{radinsky2014pundit}}
-\end{figure} 
-\vspace{-1cm}
-From causality graph, the cause events will proceed to propagation in the abstraction tree to produce the predicted event. Figure 2.16 shows the propagation of cause event. The algorithm hold possible matched results in the abstraction tree (AT) and queue (Q) that act as search frontier. When the cause event searches AT using Q, the algorithm test the similarity of new cause event with parent node and if it meets the similarity score, the possible result is added and discuss on the accumulatively in final result.  
+\begin{equation}
+\frac{A.B}{||A|| * ||B||}
+\end{equation}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{diagram/propagate}
-	\caption{Procedure for locating candidates for predictions \citep{radinsky2014pundit}}
-	\label{fig:propagate}
-\end{figure}
-\vspace{-1cm}
-For example, given an event of a bombing in Baghdad as input event illustrated in Figure 2.17, the input events search for the least general cause event that obtained in the past and eventually obtain te predicted result. 
-\begin{figure}[H]
-	\centering
-	\fbox{\includegraphics[width=0.7\linewidth]{diagram/abstractionTree}}
-	\caption{Procedure in predictve model for input event of bombing in Baghdad \citep{radinsky2014pundit}}
-	\label{fig:abstractiontree}
-\end{figure}
-\vspace{-1cm}
+Cosine similarity is used for chat bot engine \citep{yang2018learning}. When user input a random query, the input will be embed into vector and compute cosine similarity calculation with every vector in the model. After that, vector with highest similarity will be selected and returning the original question. The question is said to have the most similar textual semantic to the input query. This question is then linked user to the coresponding answer. 
+
+In this research, cosine similarity is one of the most important element to be calculated so that similarity between sentence can be measured for accurate result.   
+
 
 
 
@@ -483,7 +524,7 @@ For example, given an event of a bombing in Baghdad as input event illustrated i
 	\noindent\makebox[\textwidth]{
 		\begin{tabular}{|p{3cm}|p{3cm}|p{5cm}|p{4cm}|}
 			\hline
-			\textbf{Author, year} & \textbf{Work}                                                                                                                     & \textbf{Method}                                                                                                                                                                                                                                                                                             & \textbf{Advantages/Limitation}                                                                                                  \\ \hline
+			\textbf{Author, year} & \textbf{Work}                                                                                                                    & \textbf{Method}                                                                                                                                                                                                                                                                                             & \textbf{Advantages/ Limitation}                                                                                                  \\ \hline
 			\citep{letham2013sequential}& Sequential event prediction  & Given a sequence past database to predict next event within a current event sequence & Rely on additional user input, supervised ranking algorithm which not suitable for less predictive power past events \\
 			\hline
 			\citep{mirza2014extracting}   & Temporal sentiment analysis and causal rules extraction from tweets for event prediction & Event prediction based on temporal sentiment and causality from tweets which are from the opinion of people & Sentiment from tweets is uncertain and may affect on the predictive output \\
@@ -502,9 +543,9 @@ For example, given an event of a bombing in Baghdad as input event illustrated i
 \end{table}
 
 There are several researchers research on the topic 
-of event prediction based on causality attributes and combining different method on different domain. Table 2.4 shows the existing work of event prediction, focusing on textual data from different domain such as financial, social media, medical etc. 
+of event prediction based on causality attributes and combining different method on different domain. Table 2.2 shows the existing work of event prediction, focusing on textual data from different domain such as financial, social media, medical etc. 
 
-In the previous works, trend of event prediction starts from sequential approach, transforms to deep learning and even involved in neural network model. Researchers found that deep learning and neural network model able to cope with the high variety of unstructured textual data. Besides, event extraction also slowly transform from data-driven approach into knowledge-drive approach which able to observe from the latest work of \cite{dami2018news} that using Markov logic network with knowledge-driven extraction approach. In addition, among these previous study, causality is the main attribute that concern by the researchers. In this study, causality will also be the main attribute by producing causality rules and causality graph. Advanced method like neural network and deep learning will not be considered in this study since it require expert knowledge. We use the concept of Pundit algorithm which is also effectively predict future events from news articles because of the simplicity of algorithm and large corpus size from news article.  
+In the previous works, trend of event prediction starts from sequential approach, transforms to deep learning and even involved in neural network model. Researchers found that deep learning and neural network model able to cope with the high variety of unstructured textual data. Besides, event extraction also slowly transform from data-driven approach into knowledge-drive approach which able to observe from the latest work of \cite{dami2018news} that using Markov logic network with knowledge-driven extraction approach. In addition, among these previous study, causality is the main attribute that concern by the researchers. In this study, causality will also be the main attribute followed by different embedding technique. Besides, vector similarity will also be used to determine the semantic similarity between corpus embedding and input queries' embedding. Finally, the most similar cause in corpus will be taken and the linked effect will be taken as the possible predicted output.
 
 
 \section{Open Issues and Challenges}
@@ -535,7 +576,7 @@ In this literature review, concept of event prediction and South China Sea confl
 \chapter{Research Methodology}
 
 \section{Overview}
-This study focuses on the implementation of abstract event causality networks proposed by \cite{zhao2017constructing} on South China Sea conflict. In this causality network, causality relation between events will be focused. This chapter emphasises the research framework of the study which explains the method and technique used to achieve the objective of the study. This chapter begins with the overview of research framework which consists of three phases and each phase will be briefly explained. Besides, overall research plan will be provided in order to give a better understanding on overall expected result of this study. After that, the chapter continues with brief description of data set which will be used in this study. Finally, the chapter ends with summary. 
+This study focuses on the implementation of vector similarity measure with different sentence embedding technique for event prediction on South China Sea conflict. In this research, causality relation will be focused. This chapter emphasises the research framework of the study which explains the method and technique used to achieve the objective of the study. This chapter begins with the overview of research framework which consists of three phases and each phase will be briefly explained. Besides, overall research plan will be provided in order to give a better understanding on overall expected result of this study. After that, the chapter continues with brief description of data set which will be used in this study. Finally, the chapter ends with summary. 
 
 \section{Research Framework}
 \begin{figure}[H]
@@ -545,11 +586,12 @@ This study focuses on the implementation of abstract event causality networks pr
 	\label{fig:research-framework2}
 \end{figure}
 
-The research framework consists of three phases which correspond to the three research objectives in Chapter 1. The three phases are; (i) Causality data corpus building based on South China Sea conflict news article, (ii) Construct abstract causality network using causal event extraction and generalisation, (iii) Causality network embedding model. The flow of these three phases is illustrated on the research framework in Figure 3.1.
+The research framework consists of three phases which correspond to the three research objectives in Chapter 1. The three phases are; (i) Causality data corpus building based on South China Sea conflict news article, (ii) Phrase representation and phrase similarity measure, (iii) Causality prediction model. The flow of these three phases is illustrated on the research framework in Figure 3.1.
 
-In phase 1, news event will be represented in <cause, effect> format where it is named as causality pairs. Data is collected from various online news article that concerned on South China Sea conflict within China and Vietnam. After data collection, the following steps is causality mention extraction. Causality mention extraction will use specific causality connector such as "because", "because of", "after", etc to extract sentences that contain causality event. After that, "cause" and "effect" sentence will be extracted based on the template of <Pattern, Constraints, Priority> in order to clearly identify "cause" and "effect" sentence. Finally, event is represented in the causality pairs format of <Cause, Effect>. 
+In phase 1, news event will be represented in <cause, effect> format where it is named as causality pairs. Data is collected from various online news article that concerned on South China Sea conflict within China and Vietnam. After data collection, the following steps is causality mention extraction. Causality mention extraction will use specific causality connector such as "because", "because of", "after", etc to extract sentences that contain causality event. After that, "cause" and "effect" sentence will be extracted based on the annotation in order to clearly identify "cause" and "effect" sentence. Finally, event is represented in the causality pairs format of <Cause, Effect>. 
 
-In phase 2, abstract causality network will be generated. <Cause, Effect> causality pairs from phase 1 are further extracted by using verb-and-noun representation. Verb-and-Noun representation is used because it preserve most of the important information rather then losing them. After extracting important information, the words is further generalised using WordNet and VerbNet. Each noun is generalised to its hypernym in WordNet while each verb is generalised to its class in VerbNet. Furthermore, frequently co-occurring word pairs (FCOPA) is used to identify the frequent term and will be represented as node of abstract causality network. The edges of causality network is constructed if there is existing edge in specific event. 
+In phase 2, phrase embedding model and phrase vector will be generated. 
+<Cause, Effect> causality pairs from phase 1 are further extracted by using verb-and-noun representation. Verb-and-Noun representation is used because it preserve most of the important information rather then losing them. After extracting important information, the words is further generalised using WordNet and VerbNet. Each noun is generalised to its hypernym in WordNet while each verb is generalised to its class in VerbNet. Furthermore, frequently co-occurring word pairs (FCOPA) is used to identify the frequent term and will be represented as node of abstract causality network. The edges of causality network is constructed if there is existing edge in specific event. 
 
 In phase 3, prediction model based on causality network embedding model will be proposed. Dual cause-effect transition (Dual-CET) model will be used for adopting essential characteristics of event causality such as asymmetry, transitivity and many-to-many. Besides, a ranking criterion will be used in order to learn the correct event embedding based on true causality pairs. Next, the Dual-CET model is measured by several evaluation criterion such as Random, Common neighbours, Jaccard's coefficient, etc to measure the effectiveness and reliability of the model.  
   
@@ -656,21 +698,23 @@ Phase 2 is discussing about abstract causality network by using causal event ext
 	
 	\item Abstract Causality Network
 	
+	After generalise all the event pairs, the event pairs is linked by using pyvis visualisation library. By using "cause" and "effect" as nodes and each event pair has the edge, build up an abstract causality network. Generalised nouns and verb may be redundant as it is perfect for the abstract causality network in term of diversity.  
+	
 	
 \end{enumerate}
 \subsection{Phase 3}
-Phase 3 is to implement and train the predictive model as well as filter any inappropriate output. In machine learning, a model that generated needs to be trained as the model will dynamically learn the pattern from the inputs and fix any error that occurred during its training. In this study, a new cause event will act as input and predicted effect events will act as output. While adding the input cause event into the model, steps need to be taken as guideline for the overall event prediction.  
+Phase 3 is to train and build a new embedding model, dual cause-effect transition (Dual-CET) model as the predictive model. 
+In machine learning, a model that generated needs to be trained as the model will dynamically learn the pattern from the inputs and fix any error that occurred during its training. In this study, a new cause event will act as input and predicted effect events will act as output. While adding the input cause event into the model, steps need to be taken as guideline for the overall event prediction.  
+
 \begin{enumerate}[label=(\alph*)]
-	\item Train prediction Model
+	\item Dual-CET model 
 	
-	In this study, Pundit algorithm is used to predict desired effect events based on previous knowledge obtained. In training the prediction model, first the input cause events need to propagate throughout the abstraction tree to obtain a set of matched node. After obtaining matched nodes, causality prediction rules and minimal generalisation path that generated in the previous steps are used to guide the input cause event in finding the similar effect events. As a result, predicted effect event is produced. 
-	 
-	\item Pruning Implausible Effect
-	
-	Before giving the most suitable prediction, filtering process needs to be taken as the system might produce implausible effect events which leads into false prediction. Point-wise mutual concept information (PMCI)
+	In this study, Dual-CET model is proposed by embedding abstract causality network that created in phase 2. By considering cause-to-effect and effect-to-cause possibilities, a new energy function, f(c,e) is defined, 
 	\begin{equation}\label{3.2}
-	PMCI(x,y) = log \frac{P(x,y)}{P(x) | P(y)} 
-	\end{equation}where x is the cause event and y is the effect events. By measuring PMCI, the model filter the predicted effect events that have low average PMCI.  
+	f(c,e) = || c + t + e||_{1} + || e + \tau - c||_{1}
+	\end{equation}where c and e are cause and effect, +t and +$\tau$ are the encoding of many-to-many, asymmetry and transitivity of event causality. 
+	
+	 
 
 \end{enumerate}
 \section{Data sets}

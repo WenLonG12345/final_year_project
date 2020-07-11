@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.11)  6 APR 2020 18:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.11)  8 JUL 2020 21:11
 entering extended mode
 **./LonGThesis.tex
 (LonGThesis.tex
@@ -1244,7 +1244,7 @@ File: ot1txtt.fd 2000/12/15 v3.1
 
 pdfTeX warning: pdflatex.exe (file ./figs/library-form.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<figs/library-form.pdf, id=257, 597.63278pt x 844.75598pt>
+<figs/library-form.pdf, id=253, 597.63278pt x 844.75598pt>
 File: figs/library-form.pdf Graphic file (type pdf)
 <use figs/library-form.pdf>
 Package pdftex.def Info: figs/library-form.pdf  used on input line 42.
@@ -1265,7 +1265,7 @@ nd PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./figs/library-form.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<figs/library-form.pdf, id=260, page=1, 597.63278pt x 844.75598pt>
+<figs/library-form.pdf, id=256, page=1, 597.63278pt x 844.75598pt>
 File: figs/library-form.pdf Graphic file (type pdf)
 <use figs/library-form.pdf, page 1>
 Package pdftex.def Info: figs/library-form.pdf , page1 used on input line 42.
@@ -1309,17 +1309,7 @@ LaTeX Font Info:    Font shape `T1/txr/b/n' in size <12> not available
 ] (LonGThesis.toc
 [7
 
-]
-Underfull \hbox (badness 4366) in paragraph at lines 37--37
- [][] [][]\T1/txr/m/n/12 Data-Driven Event Ex-trac- 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
- [][] [][]\T1/txr/m/n/12 Knowledge-Driven Event 
- []
-
-[8])
+] [8])
 \tf@toc=\write6
 \openout6 = `LonGThesis.toc'.
 
@@ -1330,7 +1320,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--38
  [10
 
 ] (LonGThesis.lof
-Underfull \hbox (badness 1215) in paragraph at lines 18--18
+Underfull \hbox (badness 1028) in paragraph at lines 13--13
+ [][] [][]\T1/txr/m/n/12 Word2Vec train-ing model, adopted from []Mikolov \T1/t
+xr/m/it/12 et al.[] 
+ []
+
+
+Underfull \hbox (badness 2221) in paragraph at lines 15--15
+ [][] [][]\T1/txr/m/n/12 Performance of Para-graph Vec-tor (Doc2Vec) and other 
+
+ []
+
+[11
+
+]
+Underfull \hbox (badness 1215) in paragraph at lines 23--23
  [][] [][]\T1/txr/m/n/12 Limitation of stan-dard NER for only ex-tract-ing per-
 son, 
  []
@@ -1339,9 +1343,7 @@ son,
 \tf@lof=\write8
 \openout8 = `LonGThesis.lof'.
 
- [11
-
-] (LonGThesis.loabbre
+ [12] (LonGThesis.loabbre
 Overfull \hbox (3.996pt too wide) in paragraph at lines 1--1
 []\T1/txr/m/n/12 -
  []
@@ -1370,13 +1372,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--87
 
  []
 
-[12
+[13
 
 ] (LonGThesis.loapp)
 \tf@loapp=\write10
 \openout10 = `LonGThesis.loapp'.
 
- [13
+ [14
 
 ]
 CHAPTER 1.
@@ -1389,1157 +1391,1157 @@ Underfull \hbox (badness 1383) in paragraph at lines 116--117
 s, causal-ity is
  []
 
-[2] [3] [4] [5] [6] [7]
+[2] [3]
+Underfull \hbox (badness 1325) in paragraph at lines 134--135
+[]\T1/txr/m/n/12 Mikolov \T1/txr/m/it/12 et al.[] \T1/txr/m/n/12 ([]2013b[]) ha
+d pro-posed a state-of-art frame-work, Word2Vec for
+ []
+
+[4] [5]
+Underfull \hbox (badness 3471) in paragraph at lines 157--158
+[]\T1/txr/m/n/12 To com-pare sen-tence rep-re-sen-ta-tion al-go-rithm by com-pa
+r-ing sen-tence
+ []
+
+[6] [7]
 CHAPTER 2.
-<./diagram/taxonomy.png, id=618, 467.94826pt x 281.853pt>
+<./diagram/taxonomy.png, id=628, 419.76825pt x 288.47775pt>
 File: ./diagram/taxonomy.png Graphic file (type png)
 <use ./diagram/taxonomy.png>
-Package pdftex.def Info: ./diagram/taxonomy.png  used on input line 190.
-(pdftex.def)             Requested size: 412.56497pt x 248.49588pt.
+Package pdftex.def Info: ./diagram/taxonomy.png  used on input line 193.
+(pdftex.def)             Requested size: 412.56497pt x 283.5382pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 190--191
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 193--194
  [][] 
  []
 
 [8
 
 ] [9 <./diagram/taxonomy.png>] [10]
-<./diagram/textMining.png, id=675, 351.714pt x 211.38976pt>
+<./diagram/textMining.png, id=685, 351.714pt x 211.38976pt>
 File: ./diagram/textMining.png Graphic file (type png)
 <use ./diagram/textMining.png>
-Package pdftex.def Info: ./diagram/textMining.png  used on input line 220.
+Package pdftex.def Info: ./diagram/textMining.png  used on input line 222.
 (pdftex.def)             Requested size: 412.56497pt x 247.97978pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 220--221
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 222--223
  [][] 
  []
 
-[11 <./diagram/textMining.png>] [12]
-<diagram/Unstructured-Data-Examples.jpg, id=697, 253.44687pt x 221.82875pt>
+[11 <./diagram/textMining.png>]
+<diagram/Unstructured-Data-Examples.jpg, id=703, 253.44687pt x 221.82875pt>
 File: diagram/Unstructured-Data-Examples.jpg Graphic file (type jpg)
 <use diagram/Unstructured-Data-Examples.jpg>
 Package pdftex.def Info: diagram/Unstructured-Data-Examples.jpg  used on input 
-line 237.
+line 238.
 (pdftex.def)             Requested size: 288.79422pt x 252.7723pt.
- [13] [14 <./diagram/Unstructured-Data-Examples.jpg>] [15]
-<./diagram/causality_network.png, id=750, 634.37pt x 329.23pt>
-File: ./diagram/causality_network.png Graphic file (type png)
-<use ./diagram/causality_network.png>
-Package pdftex.def Info: ./diagram/causality_network.png  used on input line 27
-6.
-(pdftex.def)             Requested size: 330.05322pt x 171.29602pt.
- [16]
-<diagram/eventRepresentation.png, id=771, 452.28975pt x 95.1555pt>
+ [12] [13 <./diagram/Unstructured-Data-Examples.jpg>] [14] [15]
+<diagram/feature_pivot.png, id=768, 814.242pt x 190.91325pt>
+File: diagram/feature_pivot.png Graphic file (type png)
+<use diagram/feature_pivot.png>
+Package pdftex.def Info: diagram/feature_pivot.png  used on input line 277.
+(pdftex.def)             Requested size: 371.30595pt x 87.06084pt.
+<diagram/document_pivot.png, id=775, 668.4975pt x 166.82326pt>
+File: diagram/document_pivot.png Graphic file (type png)
+<use diagram/document_pivot.png>
+Package pdftex.def Info: diagram/document_pivot.png  used on input line 287.
+(pdftex.def)             Requested size: 371.30595pt x 92.66182pt.
+ [16 <./diagram/feature_pivot.png>]
+<diagram/eventRepresentation.png, id=791, 490.2315pt x 119.84775pt>
 File: diagram/eventRepresentation.png Graphic file (type png)
 <use diagram/eventRepresentation.png>
 Package pdftex.def Info: diagram/eventRepresentation.png  used on input line 29
-3.
-(pdftex.def)             Requested size: 288.79422pt x 60.75845pt.
- [17 <./diagram/causality_network.png>] [18 <./diagram/eventRepresentation.png>
-]
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 319.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 10.44997pt on input line 319.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 7.31494pt on input line 319.
-LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 5.22498pt on input line 319.
+9.
+(pdftex.def)             Requested size: 288.79422pt x 70.60349pt.
+ [17 <./diagram/document_pivot.png> <./diagram/eventRepresentation.png>]
+<diagram/linguisticPattern.png, id=801, 213.79875pt x 187.902pt>
+File: diagram/linguisticPattern.png Graphic file (type png)
+<use diagram/linguisticPattern.png>
+Package pdftex.def Info: diagram/linguisticPattern.png  used on input line 314.
 
-Underfull \hbox (badness 3128) in paragraph at lines 323--323
-[]|\T1/txr/m/n/11 ([]Wu \T1/txr/m/it/11 et al.[]\T1/txr/m/n/11 ,
+(pdftex.def)             Requested size: 330.05322pt x 290.09535pt.
+<diagram/patternMatching.png, id=806, 762.4485pt x 196.3335pt>
+File: diagram/patternMatching.png Graphic file (type png)
+<use diagram/patternMatching.png>
+Package pdftex.def Info: diagram/patternMatching.png  used on input line 322.
+(pdftex.def)             Requested size: 412.56497pt x 106.2372pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 322--323
+ [][] 
  []
 
-
-Underfull \hbox (badness 3803) in paragraph at lines 323--323
-[]|\T1/txr/m/n/11 Event Time-line Ex-trac-
+[18 <./diagram/linguisticPattern.png>]
+Underfull \hbox (badness 2134) in paragraph at lines 330--331
+[]\T1/txr/m/n/12 The im-por-tant dif-fer-ence be-tween pattern-matching based a
+nd ma-chine
  []
 
+<diagram/dependencyParsing.png, id=818, 177.66376pt x 48.78226pt>
+File: diagram/dependencyParsing.png Graphic file (type png)
+<use diagram/dependencyParsing.png>
+Package pdftex.def Info: diagram/dependencyParsing.png  used on input line 338.
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+(pdftex.def)             Requested size: 330.05322pt x 90.62833pt.
+[19 <./diagram/patternMatching.png>]
+<diagram/extraction_machineLearning.png, id=825, 407.72325pt x 277.035pt>
+File: diagram/extraction_machineLearning.png Graphic file (type png)
+<use diagram/extraction_machineLearning.png>
+Package pdftex.def Info: diagram/extraction_machineLearning.png  used on input 
+line 346.
+(pdftex.def)             Requested size: 412.56497pt x 280.32307pt.
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 346--347
+ [][] 
+ []
+
+[20 <./diagram/dependencyParsing.png> <./diagram/extraction_machineLearning.png
+>]
+<diagram/bratAnnotation.png, id=835, 576.35326pt x 157.18726pt>
+File: diagram/bratAnnotation.png Graphic file (type png)
+<use diagram/bratAnnotation.png>
+Package pdftex.def Info: diagram/bratAnnotation.png  used on input line 360.
+(pdftex.def)             Requested size: 288.79422pt x 78.76132pt.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 372.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 10.44997pt on input line 372.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 7.31494pt on input line 372.
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 5.22498pt on input line 372.
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
 []|\T1/txr/m/n/11 ([]Valenzuela-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
 \T1/txr/m/n/11 Escárcega
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
 []|\T1/txr/m/n/11 Domain-independent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
 \T1/txr/m/n/11 Rule-based Frame-work
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
-[]|\T1/txr/m/n/11 Knowledge-
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+[]|\T1/txr/m/n/11 Pattern-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
-[]|\T1/txr/m/n/11 ([]Rospocher
+Underfull \hbox (badness 1242) in paragraph at lines 378--378
+[]|\T1/txr/m/n/11 Open do-main event ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
-[]|\T1/txr/m/n/11 Building event-centric
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+[]|\T1/txr/m/n/11 Machine
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 327--327
-\T1/txr/m/n/11 knowl-edge graphs from
+Underfull \hbox (badness 3128) in paragraph at lines 380--380
+[]|\T1/txr/m/n/11 ([]Wu \T1/txr/m/it/11 et al.[]\T1/txr/m/n/11 ,
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 327--328
-[]|\T1/txr/m/n/11 Expert knowl-edge re-quired to
+Underfull \hbox (badness 3803) in paragraph at lines 380--380
+[]|\T1/txr/m/n/11 Event Time-line Ex-trac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[]|\T1/txr/m/n/11 Machine
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
 []|\T1/txr/m/n/11 ([]Vossen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
 []|\T1/txr/m/n/11 Using knowl-edge
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
 \T1/txr/m/n/11 re-sources in cross-
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 329--329
+Underfull \hbox (badness 1168) in paragraph at lines 382--382
 \T1/txr/m/n/11 lingual read-ing ma-chine
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+[]|\T1/txr/m/n/11 Machine
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 382--383
 \T1/txr/m/n/11 and NLP im-prove-ment on a
  []
 
 
-Overfull \hbox (7.3208pt too wide) in paragraph at lines 319--332
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[]|\T1/txr/m/n/11 ([]Rospocher
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--384
+[]|\T1/txr/m/n/11 Building event-centric
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 384--384
+\T1/txr/m/n/11 knowl-edge graphs from
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 384--385
+[]|\T1/txr/m/n/11 Expert knowl-edge re-quired to
+ []
+
+
+Overfull \hbox (7.3208pt too wide) in paragraph at lines 372--388
 [][] 
  []
 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
-[]|\T1/txr/m/n/11 Extracting city traf-fic
+[21 <./diagram/bratAnnotation.png>] [22]
+<diagram/term_document_matrix.png, id=868, 536.0025pt x 327.2225pt>
+File: diagram/term_document_matrix.png Graphic file (type png)
+<use diagram/term_document_matrix.png>
+Package pdftex.def Info: diagram/term_document_matrix.png  used on input line 4
+04.
+(pdftex.def)             Requested size: 288.79422pt x 176.30307pt.
+ [23 <./diagram/term_document_matrix.png (PNG copy)>]
+<diagram/word2vec.png, id=882, 532.389pt x 327.02174pt>
+File: diagram/word2vec.png Graphic file (type png)
+<use diagram/word2vec.png>
+Package pdftex.def Info: diagram/word2vec.png  used on input line 419.
+(pdftex.def)             Requested size: 288.79422pt x 177.39249pt.
+ [24 <./diagram/word2vec.png>]
+<diagram/doc2vec.png, id=898, 853.1875pt x 271.0125pt>
+File: diagram/doc2vec.png Graphic file (type png)
+<use diagram/doc2vec.png>
+Package pdftex.def Info: diagram/doc2vec.png  used on input line 442.
+(pdftex.def)             Requested size: 330.05322pt x 104.84256pt.
+<diagram/doc2vec_performance.png, id=903, 160.1985pt x 74.679pt>
+File: diagram/doc2vec_performance.png Graphic file (type png)
+<use diagram/doc2vec_performance.png>
+Package pdftex.def Info: diagram/doc2vec_performance.png  used on input line 45
+1.
+(pdftex.def)             Requested size: 330.05322pt x 153.86891pt.
+ [25 <./diagram/doc2vec.png (PNG copy)>]
+<diagram/infersent.png, id=915, 423.38174pt x 140.32425pt>
+File: diagram/infersent.png Graphic file (type png)
+<use diagram/infersent.png>
+Package pdftex.def Info: diagram/infersent.png  used on input line 466.
+(pdftex.def)             Requested size: 330.05322pt x 109.3925pt.
+ [26 <./diagram/doc2vec_performance.png>]
+Underfull \hbox (badness 1436) in paragraph at lines 471--472
+[]\T1/txr/m/n/12 Due to In-ferSent's se-man-tic rep-re-sen-ta-tion, this re-sea
+rch will be us-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
-\T1/txr/m/n/11 events from so-cial
+Underfull \hbox (badness 1824) in paragraph at lines 480--481
+\T1/txr/m/n/12 in BERT, BERT have a high-est ac-cu-racy in Se-man-tic Text Sim-
+i-lar-ity
  []
 
-
-Underfull \hbox (badness 3209) in paragraph at lines 350--350
-\T1/txr/m/n/11 of ex-plor-ing events on
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
-[]|\T1/txr/m/n/11 <\T1/txr/m/it/11 y,d,l,k\T1/txr/m/n/11 > where rep-re-sent no
-n-location
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 350--351
-\T1/txr/m/n/11 named en-ti-ties, date, lo-ca-tion and event-
- []
-
-
-Underfull \hbox (badness 4595) in paragraph at lines 352--352
-[]|\T1/txr/m/n/11 Knowledge-driven event
- []
-
-
-Underfull \hbox (badness 2409) in paragraph at lines 352--353
-[]|\T1/txr/m/it/11 E = (A,P,O)\T1/txr/m/n/11 , where P is the ac-tion or
- []
-
-
-Underfull \hbox (badness 5832) in paragraph at lines 354--354
-[]|\T1/txr/m/n/11 ([]Radinsky \T1/txr/m/it/11 et al.[]\T1/txr/m/n/11 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
-[]|\T1/txr/m/it/11 e = <P,O$[]$,....,O$[]$,t>\T1/txr/m/n/11 , where P is the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
-\T1/txr/m/n/11 events' ob-jects, O$[]$ to O$[]$ is the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
-\T1/txr/m/n/11 ac-tor,object,instrument,location and t is
- []
-
-
-Overfull \hbox (23.37357pt too wide) in paragraph at lines 344--357
-[][] 
- []
-
-[20]
-<diagram/minGeneralisation.png, id=840, 346.896pt x 322.20375pt>
-File: diagram/minGeneralisation.png Graphic file (type png)
-<use diagram/minGeneralisation.png>
-Package pdftex.def Info: diagram/minGeneralisation.png  used on input line 379.
-
-(pdftex.def)             Requested size: 288.79422pt x 268.25008pt.
- [21] [22 <./diagram/minGeneralisation.png>]
-<./diagram/cluster1.png, id=866, 318.59026pt x 199.947pt>
-File: ./diagram/cluster1.png Graphic file (type png)
-<use ./diagram/cluster1.png>
-Package pdftex.def Info: ./diagram/cluster1.png  used on input line 398.
-(pdftex.def)             Requested size: 159.29474pt x 99.97325pt.
- [23 <./diagram/cluster1.png>]
-Underfull \hbox (badness 1199) in paragraph at lines 413--414
-[]\T1/txr/m/n/12 This type of clus-ter-ing make use of dis-tance mea-sure-ments
- to clas-sify
- []
-
-<./diagram/cluster3.png, id=879, 173.14688pt x 158.84344pt>
-File: ./diagram/cluster3.png Graphic file (type png)
-<use ./diagram/cluster3.png>
-Package pdftex.def Info: ./diagram/cluster3.png  used on input line 420.
-(pdftex.def)             Requested size: 86.57323pt x 79.42152pt.
-[24 <./diagram/cluster3.png>]
-<./diagram/cluster2.png, id=893, 319.1925pt x 242.1045pt>
-File: ./diagram/cluster2.png Graphic file (type png)
-<use ./diagram/cluster2.png>
-Package pdftex.def Info: ./diagram/cluster2.png  used on input line 430.
-(pdftex.def)             Requested size: 159.59586pt x 121.05196pt.
- [25 <./diagram/cluster2.png>]
-<./diagram/pundit.png, id=910, 247.59166pt x 144.20541pt>
-File: ./diagram/pundit.png Graphic file (type png)
-<use ./diagram/pundit.png>
-Package pdftex.def Info: ./diagram/pundit.png  used on input line 452.
-(pdftex.def)             Requested size: 412.56497pt x 240.31827pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<diagram/propagate.png, id=915, 245.11575pt x 142.73325pt>
-File: diagram/propagate.png Graphic file (type png)
-<use diagram/propagate.png>
-Package pdftex.def Info: diagram/propagate.png  used on input line 460.
-(pdftex.def)             Requested size: 288.79422pt x 168.18199pt.
-[26]
-<diagram/abstractionTree.png, id=927, 237.2865pt x 150.5625pt>
-File: diagram/abstractionTree.png Graphic file (type png)
-<use diagram/abstractionTree.png>
-Package pdftex.def Info: diagram/abstractionTree.png  used on input line 468.
-(pdftex.def)             Requested size: 288.79422pt x 183.24716pt.
- [27 <./diagram/pundit.png> <./diagram/propagate.png>]
+<diagram/bert.png, id=928, 681.747pt x 188.50426pt>
+File: diagram/bert.png Graphic file (type png)
+<use diagram/bert.png>
+Package pdftex.def Info: diagram/bert.png  used on input line 484.
+(pdftex.def)             Requested size: 371.30595pt x 102.66806pt.
+[27 <./diagram/infersent.png>] [28 <./diagram/bert.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 478.
+               Default added (so using `tbp') on input line 519.
 
 
-Overfull \hbox (4.10095pt too wide) in paragraph at lines 501--501
-[]|\T1/txr/bx/n/12 Advantages/Limitation| 
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
+[]|\T1/txr/bx/n/12 Advantages/
  []
 
 
-Underfull \hbox (badness 6792) in paragraph at lines 501--501
+Underfull \hbox (badness 6792) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 ([]Letham \T1/txr/m/it/12 et al.[]\T1/txr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 501--501
+Underfull \hbox (badness 4048) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 Sequential event
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 Given a se-quence past
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 database to pre-dict next
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 Temporal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 sen-ti-ment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 anal-y-sis and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 causal rules
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 ex-trac-tion from
  []
 
 
-Underfull \hbox (badness 1661) in paragraph at lines 501--501
+Underfull \hbox (badness 1661) in paragraph at lines 542--542
 \T1/txr/m/n/12 tweets for event
  []
 
 
-Underfull \hbox (badness 3375) in paragraph at lines 501--501
+Underfull \hbox (badness 3375) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 Event pre-dic-tion based on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 tem-po-ral sen-ti-ment and
  []
 
 
-Underfull \hbox (badness 7925) in paragraph at lines 501--501
+Underfull \hbox (badness 7925) in paragraph at lines 542--542
 \T1/txr/m/n/12 are from the opin-ion of
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 501--501
+Underfull \hbox (badness 1796) in paragraph at lines 542--542
 \T1/txr/m/n/12 is un-cer-tain and may
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 ([]Ding \T1/txr/m/it/12 et al.[]\T1/txr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 Depp learn-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 on event-driven
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 stock mar-ket
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 501--501
+Underfull \hbox (badness 5036) in paragraph at lines 542--542
 \T1/txr/m/n/12 vides pre-dic-tion based on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 Event
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 501--501
+Underfull \hbox (badness 5924) in paragraph at lines 542--542
 \T1/txr/m/n/12 Pre-dic-tion us-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 Com-po-si-tional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 Neu-ral Net-work
  []
 
 
-Underfull \hbox (badness 1838) in paragraph at lines 501--501
+Underfull \hbox (badness 1838) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 Use word2vec to rep-re-sent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 Narrative event
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 evo-lu-tion-ary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 graph (NEGG)
  []
 
 
-Underfull \hbox (badness 4913) in paragraph at lines 501--501
+Underfull \hbox (badness 4913) in paragraph at lines 542--542
 \T1/txr/m/n/12 for script event
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 501--501
+Underfull \hbox (badness 5274) in paragraph at lines 542--542
 \T1/txr/m/n/12 from news-pa-per and con-
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 501--501
+Underfull \hbox (badness 1466) in paragraph at lines 542--542
 \T1/txr/m/n/12 struct NEEG based on the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 ([]Rumi \T1/txr/m/it/12 et al.[]\T1/txr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 Crime event
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 pre-dic-tion with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 and ma-trix
  []
 
 
-Underfull \hbox (badness 4556) in paragraph at lines 501--501
+Underfull \hbox (badness 4556) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 Dynamic fea-tures such as
  []
 
 
-Underfull \hbox (badness 2521) in paragraph at lines 501--501
+Underfull \hbox (badness 2521) in paragraph at lines 542--542
 \T1/txr/m/n/12 vis-i-tor en-tropy, vis-i-tor ho-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 ([]Dami \T1/txr/m/it/12 et al.[]\T1/txr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 News events
  []
 
 
-Underfull \hbox (badness 7796) in paragraph at lines 501--501
+Underfull \hbox (badness 7796) in paragraph at lines 542--542
 \T1/txr/m/n/12 pre-dic-tion us-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 \T1/txr/m/n/12 Markov logic
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 501--501
+Underfull \hbox (badness 1406) in paragraph at lines 542--542
 []|\T1/txr/m/n/12 Markov logic net-work rep-
  []
 
 
-Underfull \hbox (badness 6110) in paragraph at lines 501--501
+Underfull \hbox (badness 6110) in paragraph at lines 542--542
 \T1/txr/m/n/12 re-sent com-plex events by
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 501--501
+Underfull \hbox (badness 1215) in paragraph at lines 542--542
 \T1/txr/m/n/12 with domain-specific causal
  []
 
 
-Underfull \hbox (badness 3029) in paragraph at lines 501--501
+Underfull \hbox (badness 3029) in paragraph at lines 542--542
 \T1/txr/m/n/12 rule must be cre-ated
  []
 
-[28 <./diagram/abstractionTree.png>] [29] [30] [31]
+[29] [30] [31] [32]
 CHAPTER 3.
-<diagram/Research Framework.png, id=990, 332.442pt x 454.69875pt>
+<diagram/Research Framework.png, id=1018, 330.033pt x 451.6875pt>
 File: diagram/Research Framework.png Graphic file (type png)
 <use diagram/Research Framework.png>
-Package pdftex.def Info: diagram/Research Framework.png  used on input line 543
+Package pdftex.def Info: diagram/Research Framework.png  used on input line 584
 .
-(pdftex.def)             Requested size: 412.56874pt x 632.50815pt.
-[32
+(pdftex.def)             Requested size: 412.5654pt x 632.58562pt.
+[33
 
-] [33 <./diagram/Research Framework.png>]
-Underfull \hbox (badness 3088) in paragraph at lines 552--553
+] [34 <./diagram/Research Framework.png>]
+Underfull \hbox (badness 3088) in paragraph at lines 593--594
 []\T1/txr/m/n/12 In phase 2, ab-stract causal-ity net-work will be gen-er-ated.
  <Cause,
  []
 
-[34]
+[35]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 558.
+               Default added (so using `tbp') on input line 599.
 
 LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 625.
+(Font)              scaled to size 10.40245pt on input line 666.
 
-Underfull \hbox (badness 1028) in paragraph at lines 625--625
+Underfull \hbox (badness 1028) in paragraph at lines 666--666
 []|\T1/txr/m/n/10.95 Performance Mea-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 ef-fect> causal-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 pairs from news
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 625--625
+Underfull \hbox (badness 8038) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 ar-ti-cles in South
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 []|\T1/txr/m/n/10.95 How to ob-tain
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 625--625
+Underfull \hbox (badness 1616) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 use-ful in-for-ma-tion
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 625--625
+Underfull \hbox (badness 2057) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 from news ar-ti-cle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 that re-lated to
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 625--625
+Underfull \hbox (badness 5316) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 South China Sea
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-25.
+66.
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\ts1txr.fd"
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 1132) in paragraph at lines 625--625
+Underfull \hbox (badness 1132) in paragraph at lines 666--666
 []\T1/txr/m/n/10.95 Build news ar-ti-
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 625--625
+Underfull \hbox (badness 1902) in paragraph at lines 666--666
 []\T1/txr/m/n/10.95 Extract causal-ity
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 625--625
+Underfull \hbox (badness 1320) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 pairs of <cause,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 ef-fect> us-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 causal-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 on tem-plate
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 of <Pat-tern,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 Con-straints,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 []\T1/txr/m/n/10.95 News ar-ti-cle
  []
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 625--625
+Underfull \hbox (badness 2443) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 on South China
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 Sea con-flict
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 within Viet-nam
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 and China is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 ex-tracted and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 cre-ated news
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 and rep-re-sented
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 in <cause,
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 625--625
+Underfull \hbox (badness 2564) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 ef-fect> causal-ity
  []
 
 
-Underfull \hbox (badness 6978) in paragraph at lines 625--625
+Underfull \hbox (badness 6978) in paragraph at lines 666--666
 []|\T1/txr/m/n/10.95 Make sure event
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 []|\T1/txr/m/n/10.95 To ex-tract
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 all im-por-tant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 in-for-ma-tion from
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 625--625
+Underfull \hbox (badness 1867) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 causal-ity pairs by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 us-ing verb-noun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 rep-re-sen-ta-tion as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 well as dis-cover
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 gen-eral pat-terns
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 625--625
+Underfull \hbox (badness 4391) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 and clus-ter event
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 []\T1/txr/m/n/10.95 Extract all
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 the im-por-tant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 in-for-ma-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 within causal-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 pairs by us-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 verb-noun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 verb and noun
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 with Word-Net
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 625--625
+Underfull \hbox (badness 5359) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 in-for-ma-tion will
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 be kept while
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 elim-i-nat-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 un-used
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 []\T1/txr/m/n/10.95 All in-for-ma-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 is gen-er-alised
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 to pro-duce
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 a gen-eral,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 fre-quent and
  []
 
 
-Underfull \hbox (badness 7116) in paragraph at lines 625--625
+Underfull \hbox (badness 7116) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 sim-ple causal-ity
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 625--625
+Underfull \hbox (badness 1048) in paragraph at lines 666--666
 []|\T1/txr/m/n/10.95 Visualise causal-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 ab-stract causal-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 net-work with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 fre-quently co-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 occurring word
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 625--625
+Underfull \hbox (badness 2762) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 em-bed the model
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 625--625
+Underfull \hbox (badness 2753) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 into a con-tin-u-ous
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 []\T1/txr/m/n/10.95 Build ab-stract
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 with fre-quently
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 co-occurring
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 word paris
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 625--625
+Underfull \hbox (badness 2799) in paragraph at lines 666--666
 []\T1/txr/m/n/10.95 Embed causal-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 net-work with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 Dual-CET
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 and able to
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 625--625
+Underfull \hbox (badness 4013) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 gen-er-ate gen-eral
  []
 
 
-Underfull \hbox (badness 5388) in paragraph at lines 625--625
+Underfull \hbox (badness 5388) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 pre-dicted out-put
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 625--625
+Underfull \hbox (badness 1009) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 dic-tion model is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 []|\T1/txr/m/n/10.95 Examine
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 pre-dic-tion model
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 by per-form-ing
  []
 
 
-Underfull \hbox (badness 7649) in paragraph at lines 625--625
+Underfull \hbox (badness 7649) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 sev-eral eval-u-a-tion
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 625--625
+Underfull \hbox (badness 7064) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 cri-te-rion such as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 neigh-bours,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
+Underfull \hbox (badness 10000) in paragraph at lines 666--666
 \T1/txr/m/n/10.95 Jac-card's
  []
 
-[35] [36] [37]
-<diagram/vietnamNews.png, id=1024, 876.876pt x 479.391pt>
+[36] [37] [38]
+<diagram/vietnamNews.png, id=1053, 876.876pt x 479.391pt>
 File: diagram/vietnamNews.png Graphic file (type png)
 <use diagram/vietnamNews.png>
-Package pdftex.def Info: diagram/vietnamNews.png  used on input line 680.
+Package pdftex.def Info: diagram/vietnamNews.png  used on input line 723.
 (pdftex.def)             Requested size: 412.56497pt x 225.55519pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 680--681
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 723--724
  [][] 
  []
 
-[38]
-<diagram/chinaNews.png, id=1032, 872.058pt x 476.982pt>
+[39]
+<diagram/chinaNews.png, id=1060, 872.058pt x 476.982pt>
 File: diagram/chinaNews.png Graphic file (type png)
 <use diagram/chinaNews.png>
-Package pdftex.def Info: diagram/chinaNews.png  used on input line 687.
+Package pdftex.def Info: diagram/chinaNews.png  used on input line 730.
 (pdftex.def)             Requested size: 412.56497pt x 225.65903pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 687--688
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 730--731
  [][] 
  []
 
-[39 <./diagram/vietnamNews.png> <./diagram/chinaNews.png>]
-<diagram/confusionMatrix.png, id=1040, 522.753pt x 187.29974pt>
+[40 <./diagram/vietnamNews.png> <./diagram/chinaNews.png>]
+<diagram/confusionMatrix.png, id=1067, 522.753pt x 187.29974pt>
 File: diagram/confusionMatrix.png Graphic file (type png)
 <use diagram/confusionMatrix.png>
-Package pdftex.def Info: diagram/confusionMatrix.png  used on input line 700.
+Package pdftex.def Info: diagram/confusionMatrix.png  used on input line 743.
 (pdftex.def)             Requested size: 288.79422pt x 103.47244pt.
- [40 <./diagram/confusionMatrix.png>] [41]
+ [41 <./diagram/confusionMatrix.png>] [42]
 CHAPTER 4.
-<diagram/phase1 steps.png, id=1053, 497.4585pt x 78.89474pt>
+<diagram/phase1 steps.png, id=1080, 497.4585pt x 78.89474pt>
 File: diagram/phase1 steps.png Graphic file (type png)
 <use diagram/phase1 steps.png>
-Package pdftex.def Info: diagram/phase1 steps.png  used on input line 736.
+Package pdftex.def Info: diagram/phase1 steps.png  used on input line 779.
 (pdftex.def)             Requested size: 330.05322pt x 52.34634pt.
 
-Underfull \hbox (badness 1097) in paragraph at lines 733--739
+Underfull \hbox (badness 1097) in paragraph at lines 776--782
 []\T1/txr/m/n/12 In phase 1, text pre-pro-cess-ing will be the pri-mary work. P
 ur-pose of
  []
 
-<diagram/spacy4.png, id=1054, 552.26324pt x 179.4705pt>
+<diagram/spacy4.png, id=1081, 552.26324pt x 179.4705pt>
 File: diagram/spacy4.png Graphic file (type png)
 <use diagram/spacy4.png>
-Package pdftex.def Info: diagram/spacy4.png  used on input line 745.
+Package pdftex.def Info: diagram/spacy4.png  used on input line 788.
 (pdftex.def)             Requested size: 412.56497pt x 134.074pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 745--746
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 788--789
  [][] 
  []
 
-[42
+[43
 
  <./diagram/phase1 steps.png>]
-<diagram/annotation.png, id=1060, 843.15pt x 102.98476pt>
+<diagram/annotation.png, id=1087, 843.15pt x 102.98476pt>
 File: diagram/annotation.png Graphic file (type png)
 <use diagram/annotation.png>
-Package pdftex.def Info: diagram/annotation.png  used on input line 755.
+Package pdftex.def Info: diagram/annotation.png  used on input line 798.
 (pdftex.def)             Requested size: 412.56497pt x 50.39224pt.
 
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 755--756
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 798--799
  [][] 
  []
 
-<diagram/annotationResult.png, id=1061, 261.3765pt x 265.59225pt>
+<diagram/annotationResult.png, id=1088, 261.3765pt x 265.59225pt>
 File: diagram/annotationResult.png Graphic file (type png)
 <use diagram/annotationResult.png>
-Package pdftex.def Info: diagram/annotationResult.png  used on input line 763.
+Package pdftex.def Info: diagram/annotationResult.png  used on input line 806.
 (pdftex.def)             Requested size: 371.30595pt x 377.29355pt.
-[43 <./diagram/spacy4.png> <./diagram/annotation.png>] [44 <./diagram/annotatio
-nResult.png>] [45]
+[44 <./diagram/spacy4.png> <./diagram/annotation.png>] [45 <./diagram/annotatio
+nResult.png>] [46]
 CHAPTER 5.
-[46
+[47
 
-] (LonGThesis.bbl [47]
-Underfull \hbox (badness 1082) in paragraph at lines 42--46
+] (LonGThesis.bbl [48]
+Underfull \hbox (badness 1082) in paragraph at lines 35--39
 []\T1/txr/m/n/12 Asim, K., Martínez-Álvarez, F., Ba-sit, A. and Iqbal, T. (2017
 ).  Earth-quake
  []
 
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 5
-1.
+LaTeX Font Info:    Trying to load font information for T1+txtt on input line 4
+4.
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/txfonts\t1txtt.fd"
 File: t1txtt.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 48--52
+Underfull \hbox (badness 10000) in paragraph at lines 41--45
 []\T1/txr/m/n/12 Baker, J. (2019).  \T1/txr/m/it/12 Ma-chine Learn-ing Ver-sus 
 The News\T1/txr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--52
+Underfull \hbox (badness 10000) in paragraph at lines 41--45
 \T1/txr/m/n/12 Re-triev-able at []$\T1/txtt/m/n/12 https : / / towardsdatascien
 ce . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--72
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
 []\T1/txr/m/n/12 Bell, B. (2016).  \T1/txr/m/it/12 The Road to Pre-dic-tion: Us
 -ing Un-struc-tured
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--72
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
 \T1/txr/m/it/12 Data\T1/txr/m/n/12 .  Re-triev-able at []$\T1/txtt/m/n/12 https
  : / / www . dataversity . net /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--85
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
 []\T1/txr/m/n/12 Casert, R. (2016).  \T1/txr/m/it/12 Bel-gium ramps up se-cu-ri
 ty for lone sus-pect in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--85
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
 \T1/txr/m/it/12 Jew-ish Mu-seum at-tack\T1/txr/m/n/12 .  Re-triev-able at []$\T
 1/txtt/m/n/12 https : / / archive . is /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--85
+Underfull \hbox (badness 10000) in paragraph at lines 79--84
 \T1/txtt/m/n/12 20140527190719 / http : / / www . theglobeandmail . com / news 
 / world /
  []
 
 
-Overfull \hbox (31.58408pt too wide) in paragraph at lines 80--85
+Overfull \hbox (31.58408pt too wide) in paragraph at lines 79--84
 \T1/txtt/m/n/12 police-[]hunt-[]brussels-[]jewish-[]museum-[]shooter-[]france-[
 ]tightens-[]security /
  []
 
-[48
+[49
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 93--97
+Underfull \hbox (badness 10000) in paragraph at lines 92--96
 []\T1/txr/m/n/12 ChinaPower (2016).  \T1/txr/m/it/12 How much trade tran-sits t
 he South China
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--97
+Underfull \hbox (badness 10000) in paragraph at lines 92--96
 \T1/txr/m/it/12 Sea?  \T1/txr/m/n/12 Re-triev-able at []$\T1/txtt/m/n/12 https 
 : / / chinapower . csis . org /
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 117--121
+Underfull \hbox (badness 1997) in paragraph at lines 129--133
 []\T1/txr/m/n/12 D.Goltz, J. (2018).  \T1/txr/m/it/12 Earth-quake ad-vi-sories 
 can save lives\T1/txr/m/n/12 .  Re-triev-able at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--121
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
 []$\T1/txtt/m/n/12 https : / / www . japantimes . co . jp / opinion / 2018 / 04
  / 17 / commentary /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--121
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
 \T1/txtt/m/n/12 japan-[]commentary / earthquake-[]advisories-[]can-[]save-[]liv
 es / # .
  []
 
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 165--170
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 162--167
 []\T1/txr/m/n/12 Fensom, A. (2016).  $5 Tril-lion Melt-down - What If China
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--170
+Underfull \hbox (badness 10000) in paragraph at lines 162--167
 \T1/txr/m/n/12 Shuts Down the South China Sea? \T1/txr/m/it/12 The Na-tional In
 -ter-est\T1/txr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--170
+Underfull \hbox (badness 10000) in paragraph at lines 162--167
 \T1/txr/m/n/12 Re-triev-able at []$\T1/txtt/m/n/12 https : / / nationalinterest
  . org / blog /
  []
 
 
-Overfull \hbox (23.4841pt too wide) in paragraph at lines 165--170
+Overfull \hbox (23.4841pt too wide) in paragraph at lines 162--167
 \T1/txtt/m/n/12 5-[]trillion-[]meltdown-[]what-[]if-[]china-[]shuts-[]down-[]th
 e-[]south-[]china-[]16996$[]\T1/txr/m/n/12 . 
  []
 
-[50]
-Underfull \hbox (badness 6063) in paragraph at lines 231--235
-[]\T1/txr/m/n/12 Jae-Wook Ahn, S. Y. S. (2005).  \T1/txr/m/it/12 Self-Organizin
-g Maps\T1/txr/m/n/12 .  Re-triev-able
- []
-
-
-Underfull \hbox (badness 1953) in paragraph at lines 231--235
-\T1/txr/m/n/12 at []$\T1/txtt/m/n/12 http : / / www . pitt . edu / ~is2470pb / 
-Spring05 / FinalProjects / Group1a /
- []
-
-
-Overfull \hbox (21.9841pt too wide) in paragraph at lines 247--252
-\T1/txtt/m/n/12 an-[]introduction-[]to-[]clustering-[]and-[]different-[]methods
--[]of-[]clustering/$[]\T1/txr/m/n/12 . 
- []
-
-[51] [52]
-Underfull \hbox (badness 1259) in paragraph at lines 411--418
+[51] [52] [53]
+Underfull \hbox (badness 1259) in paragraph at lines 457--464
 \T1/txr/m/n/12 for stock mar-ket pre-dic-tion from fi-nan-cial news ar-ti-cles.
    In \T1/txr/m/it/12 2017 IEEE
  []
 
-[53]) [54]
+[54]) [55]
 Appendix A.
 Package hyperref Info: bookmark level for unknown appendix defaults to 0 on inp
-ut line 796.
-<diagram/Thesis Gantt Chart NEW.png, id=1149, 1043.9pt x 804.00375pt>
+ut line 839.
+<diagram/Thesis Gantt Chart NEW.png, id=1174, 1043.9pt x 804.00375pt>
 File: diagram/Thesis Gantt Chart NEW.png Graphic file (type png)
 <use diagram/Thesis Gantt Chart NEW.png>
 Package pdftex.def Info: diagram/Thesis Gantt Chart NEW.png  used on input line
- 799.
+ 842.
 (pdftex.def)             Requested size: 1043.89745pt x 804.0018pt.
-[55
+[56
 
  <./diagram/Thesis Gantt Chart NEW.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 805.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 805.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 848.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 848.
  (LonGThesis.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 805.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 805.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 848.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 848.
 Package rerunfilecheck Info: File `LonGThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 90B034723417456C93ACBB57567805FE;3740.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 805.
+(rerunfilecheck)             Checksum: EB830DAD3527B9EC0FDDBE116514223B;3655.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 848.
  ) 
 Here is how much of TeX's memory you used:
- 26812 strings out of 481556
- 516630 string characters out of 2914337
- 835340 words of memory out of 3000000
- 41177 multiletter control sequences out of 15000+200000
- 606555 words of font info for 162 fonts, out of 3000000 for 9000
+ 26873 strings out of 481556
+ 518562 string characters out of 2914337
+ 837699 words of memory out of 3000000
+ 41231 multiletter control sequences out of 15000+200000
+ 598879 words of font info for 153 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,18n,77p,2233b,1030s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,18n,77p,2233b,1028s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
 <C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/rtc
 xr.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/txfo
@@ -2548,14 +2550,13 @@ c/txfonts/rtxi.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/txfonts/rtxmi.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/txfonts/rtxr.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/User/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/txfonts/txex.pfb><C:/Users/User/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Users/User/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on LonGThesis.pdf (71 pages, 1356408 bytes).
+KTeX 2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Users/User/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/User/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/User/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on LonGThesis.pdf (73 pages, 1792790 bytes).
 PDF statistics:
- 1258 PDF objects out of 1440 (max. 8388607)
- 290 named destinations out of 1000 (max. 500000)
- 626 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1283 PDF objects out of 1440 (max. 8388607)
+ 299 named destinations out of 1000 (max. 500000)
+ 643 words of extra memory for PDF output out of 10000 (max. 10000000)
 

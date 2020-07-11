@@ -32,30 +32,29 @@
 \BOOKMARK [2][-]{subsection.2.4.3}{Event Detection}{section.2.4}% 32
 \BOOKMARK [2][-]{subsection.2.4.4}{Event Extraction}{section.2.4}% 33
 \BOOKMARK [2][-]{subsection.2.4.5}{Event Representation}{section.2.4}% 34
-\BOOKMARK [2][-]{subsection.2.4.6}{Event Generalisation}{section.2.4}% 35
-\BOOKMARK [1][-]{section.2.5}{Prediction Algorithm}{chapter.2}% 36
-\BOOKMARK [2][-]{subsection.2.5.1}{Sequential Prediction Algorithm}{section.2.5}% 37
-\BOOKMARK [2][-]{subsection.2.5.2}{Neural Network Prediction Algorithm}{section.2.5}% 38
-\BOOKMARK [2][-]{subsection.2.5.3}{Decision Tree \(Pundit\) Algorithm}{section.2.5}% 39
-\BOOKMARK [1][-]{section.2.6}{Existing work of Event Prediction}{chapter.2}% 40
-\BOOKMARK [1][-]{section.2.7}{Open Issues and Challenges}{chapter.2}% 41
-\BOOKMARK [1][-]{section.2.8}{Summary}{chapter.2}% 42
-\BOOKMARK [0][-]{chapter.3}{Research Methodology}{}% 43
-\BOOKMARK [1][-]{section.3.1}{Overview}{chapter.3}% 44
-\BOOKMARK [1][-]{section.3.2}{Research Framework}{chapter.3}% 45
-\BOOKMARK [2][-]{subsection.3.2.1}{Phase 1}{section.3.2}% 46
-\BOOKMARK [2][-]{subsection.3.2.2}{Phase 2}{section.3.2}% 47
-\BOOKMARK [2][-]{subsection.3.2.3}{Phase 3}{section.3.2}% 48
-\BOOKMARK [1][-]{section.3.3}{Data sets}{chapter.3}% 49
-\BOOKMARK [1][-]{section.3.4}{Performance Measurement}{chapter.3}% 50
-\BOOKMARK [1][-]{section.3.5}{PSM 1 Gantt Chart}{chapter.3}% 51
-\BOOKMARK [1][-]{section.3.6}{Summary}{chapter.3}% 52
-\BOOKMARK [0][-]{chapter.4}{Experimental Setup}{}% 53
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 54
-\BOOKMARK [1][-]{section.4.2}{Text Preprocessing and Event Extraction}{chapter.4}% 55
-\BOOKMARK [1][-]{section.4.3}{Summary}{chapter.4}% 56
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 57
-\BOOKMARK [1][-]{section.5.1}{Conclusion Remarks}{chapter.5}% 58
-\BOOKMARK [1][-]{section.5.2}{Future Works}{chapter.5}% 59
-\BOOKMARK [1][-]{section.5.3}{Summary}{chapter.5}% 60
-\BOOKMARK [0][-]{section*.49}{REFERENCES}{}% 61
+\BOOKMARK [1][-]{section.2.5}{Prediction Model Technique}{chapter.2}% 35
+\BOOKMARK [2][-]{subsection.2.5.1}{Sequential Prediction Algorithm}{section.2.5}% 36
+\BOOKMARK [2][-]{subsection.2.5.2}{Neural Network Prediction Algorithm}{section.2.5}% 37
+\BOOKMARK [2][-]{subsection.2.5.3}{Vector Similarity}{section.2.5}% 38
+\BOOKMARK [1][-]{section.2.6}{Existing work of Event Prediction}{chapter.2}% 39
+\BOOKMARK [1][-]{section.2.7}{Open Issues and Challenges}{chapter.2}% 40
+\BOOKMARK [1][-]{section.2.8}{Summary}{chapter.2}% 41
+\BOOKMARK [0][-]{chapter.3}{Research Methodology}{}% 42
+\BOOKMARK [1][-]{section.3.1}{Overview}{chapter.3}% 43
+\BOOKMARK [1][-]{section.3.2}{Research Framework}{chapter.3}% 44
+\BOOKMARK [2][-]{subsection.3.2.1}{Phase 1}{section.3.2}% 45
+\BOOKMARK [2][-]{subsection.3.2.2}{Phase 2}{section.3.2}% 46
+\BOOKMARK [2][-]{subsection.3.2.3}{Phase 3}{section.3.2}% 47
+\BOOKMARK [1][-]{section.3.3}{Data sets}{chapter.3}% 48
+\BOOKMARK [1][-]{section.3.4}{Performance Measurement}{chapter.3}% 49
+\BOOKMARK [1][-]{section.3.5}{PSM 1 Gantt Chart}{chapter.3}% 50
+\BOOKMARK [1][-]{section.3.6}{Summary}{chapter.3}% 51
+\BOOKMARK [0][-]{chapter.4}{Experimental Setup}{}% 52
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 53
+\BOOKMARK [1][-]{section.4.2}{Text Preprocessing and Event Extraction}{chapter.4}% 54
+\BOOKMARK [1][-]{section.4.3}{Summary}{chapter.4}% 55
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 56
+\BOOKMARK [1][-]{section.5.1}{Conclusion Remarks}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.2}{Future Works}{chapter.5}% 58
+\BOOKMARK [1][-]{section.5.3}{Summary}{chapter.5}% 59
+\BOOKMARK [0][-]{section*.53}{REFERENCES}{}% 60

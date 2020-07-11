@@ -1,20 +1,25 @@
 \contentsline {figure}{\numberline {Figure\nobreakspace {} 2.1}{\ignorespaces Taxonomy of Event Prediction - Generic steps needed to performed in event prediction\relax }}{9}{figure.caption.25}%
 \contentsline {figure}{\numberline {Figure\nobreakspace {} 2.2}{\ignorespaces General Text Mining Framework proposed by \cite {tan1999text}\relax }}{11}{figure.caption.26}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.3}{\ignorespaces Example of structured and unstructured data \citep {michaelbenzmoritzmuller}\relax }}{14}{figure.caption.27}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.4}{\ignorespaces Example of Causality Network, adopted from \cite {zhao2017constructing}\relax }}{17}{figure.caption.28}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.5}{\ignorespaces General procedure of event extraction\relax }}{18}{figure.caption.29}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.6}{\ignorespaces Procedure of calculating minimal generalisation path \citep {radinsky2012learning}\relax }}{22}{figure.caption.32}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.7}{\ignorespaces Hierarchical cluster \citep {suyal2014text}\relax }}{23}{figure.caption.33}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.8}{\ignorespaces K-mean clustering\relax }}{24}{figure.caption.34}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.9}{\ignorespaces Self-Organising Maps\relax }}{25}{figure.caption.35}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.10}{\ignorespaces Structure of Pundit Algorithm \citep {radinsky2014pundit}\relax }}{27}{figure.caption.36}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.11}{\ignorespaces Procedure for locating candidates for predictions \citep {radinsky2014pundit}\relax }}{27}{figure.caption.37}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.12}{\ignorespaces Procedure in predictve model for input event of bombing in Baghdad \citep {radinsky2014pundit}\relax }}{28}{figure.caption.38}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 3.1}{\ignorespaces Research Framework\relax }}{33}{figure.caption.40}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 3.2}{\ignorespaces Sample of news article from Vietnam New Agency\relax }}{39}{figure.caption.42}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 3.3}{\ignorespaces Sample of news article form China\relax }}{39}{figure.caption.43}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 3.4}{\ignorespaces Confusion Matrix\relax }}{40}{figure.caption.44}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 4.1}{\ignorespaces Flow of Text Preprocessing\relax }}{42}{figure.caption.45}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 4.2}{\ignorespaces Limitation of standard NER for only extracting person, organisation, location and time\relax }}{43}{figure.caption.46}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 4.3}{\ignorespaces Annotation of sample sentence in WebAnno\relax }}{43}{figure.caption.47}%
-\contentsline {figure}{\numberline {Figure\nobreakspace {} 4.4}{\ignorespaces Annotation in CoNLL-2002 format\relax }}{44}{figure.caption.48}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.3}{\ignorespaces Example of structured and unstructured data \citep {michaelbenzmoritzmuller}\relax }}{13}{figure.caption.27}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.4}{\ignorespaces Feature-pivot paradigm for event detection, adopted from \cite {schinas2018event}\relax }}{16}{figure.caption.28}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.5}{\ignorespaces Document-pivot event detection, adopted from \cite {schinas2018event}\relax }}{17}{figure.caption.29}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.6}{\ignorespaces General procedure of event extraction\relax }}{17}{figure.caption.30}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.7}{\ignorespaces Example of Linguistic pattern and its pattern, adopted from \cite {riloff1993automatically}\relax }}{18}{figure.caption.31}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.8}{\ignorespaces Example of event pattern construction and event extraction based on pattern matching adopted from \cite {xiang2019survey}\relax }}{19}{figure.caption.32}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.9}{\ignorespaces Example of Dependency Parsing Visualisation\relax }}{20}{figure.caption.33}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.10}{\ignorespaces Example of event extraction based on machine learning\relax }}{20}{figure.caption.34}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.11}{\ignorespaces Screenshot of Brat Annotation Tool\relax }}{21}{figure.caption.35}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.12}{\ignorespaces Term-document Matrix\relax }}{23}{figure.caption.37}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.13}{\ignorespaces Word2Vec training model, adopted from \cite {mikolov2013efficient}\relax }}{24}{figure.caption.38}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.14}{\ignorespaces PV-DM and PV-DBOW model in Doc2Vec \citep {le2014distributed}\relax }}{25}{figure.caption.39}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.15}{\ignorespaces Performance of Paragraph Vector (Doc2Vec) and other baseline on information retrieval task \citep {le2014distributed}\relax }}{26}{figure.caption.40}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.16}{\ignorespaces Simplified Illustration of InterSent\relax }}{27}{figure.caption.41}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 2.17}{\ignorespaces BERT input representation \citep {devlin2018bert}\relax }}{28}{figure.caption.42}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 3.1}{\ignorespaces Research Framework\relax }}{34}{figure.caption.44}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 3.2}{\ignorespaces Sample of news article from Vietnam New Agency\relax }}{40}{figure.caption.46}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 3.3}{\ignorespaces Sample of news article form China\relax }}{40}{figure.caption.47}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 3.4}{\ignorespaces Confusion Matrix\relax }}{41}{figure.caption.48}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 4.1}{\ignorespaces Flow of Text Preprocessing\relax }}{43}{figure.caption.49}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 4.2}{\ignorespaces Limitation of standard NER for only extracting person, organisation, location and time\relax }}{44}{figure.caption.50}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 4.3}{\ignorespaces Annotation of sample sentence in WebAnno\relax }}{44}{figure.caption.51}%
+\contentsline {figure}{\numberline {Figure\nobreakspace {} 4.4}{\ignorespaces Annotation in CoNLL-2002 format\relax }}{45}{figure.caption.52}%
